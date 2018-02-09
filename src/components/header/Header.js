@@ -12,8 +12,10 @@ export default class Header extends Component {
         return (
             <Container1>
                 <Holder5>
-                    <Brand2>
-                    </Brand2>
+                    <a href="/">
+                        <Brand2>
+                        </Brand2>
+                    </a>
                     <NavBar1
                         navbarWidth='60%' >
                         <a href="/">Home</a>

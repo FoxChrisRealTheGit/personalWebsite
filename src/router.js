@@ -6,6 +6,7 @@ import About from './components/about/About';
 import Resume from './components/resume/Resume';
 import Portfolio from './components/portfolio/Portfolio';
 import FullStory from './components/about/FullStory';
+import Publications from './components/Publications/Publications';
 // <Route to="" component></Route>
 //         
 //         
@@ -17,6 +18,7 @@ export default (
         <Route path='/about/fullstory' component={FullStory}></Route>
         <Route path="/resume" component={Resume}></Route>
         <Route path="/portfolio" component={Portfolio}></Route>
+        <Route path="/publications" component={Publications}></Route>
     </Switch>
 
 )
