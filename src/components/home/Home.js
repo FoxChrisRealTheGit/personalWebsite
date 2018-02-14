@@ -64,7 +64,7 @@ export default class Home extends Component {
                                     </P1>
                                 </Holder5>
                             </Holder1>
-                            <a href="/resume"><P1 width="350px" >Check out my Resume...</P1></a>
+                            <a href="/portfolio"><P1 width="350px" >Check out my Portfolio...</P1></a>
                         </Holder5>
                         <Holder6>
                             <H32></H32>

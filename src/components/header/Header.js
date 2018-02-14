@@ -6,14 +6,16 @@ import {
     Brand2,
 } from 'react-stylux';
 
-
+import tail from '../../images/SVG/foxtail2-1.svg';
 export default class Header extends Component {
     render() {
         return (
             <Container1>
                 <Holder5>
                     <a href="/">
-                        <Brand2>
+                        <Brand2
+                            size='sm'>
+                        {tail}
                         </Brand2>
                     </a>
                     <NavBar1
