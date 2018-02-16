@@ -13,10 +13,10 @@ import {
     Hero1,
     H32,
     P1,
+    SquareImage,
 } from "react-stylux";
 
-import aspen from '../../images/chrisinaspen.jpg';
-import SquareImage from 'react-stylux/Images/SquareImage';
+import aspen from '../../images/chrisinaspen.jpg';;
 
 export default class Home extends Component {
     render() {
@@ -70,6 +70,8 @@ export default class Home extends Component {
                             <H32></H32>
                             <Holder2>
                                 <Holder5>
+                                    <SquareImage>
+                                        </SquareImage>
                                     <P1>
                                         Alone
                                     </P1>
