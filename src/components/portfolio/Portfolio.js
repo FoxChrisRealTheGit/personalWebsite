@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import {
-    Container1,
-    Holder8,
+    Container,
+    Holder,
     H31,
     P3,
     Carousel4,
@@ -11,7 +11,7 @@ import {
     H41,
 } from 'react-stylux';
 
-import HashLink from 'react-router-hash-link';
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 export default class Portfolio extends Component {
@@ -19,8 +19,9 @@ export default class Portfolio extends Component {
         return (
             <section>
                 <Header />
-                <Container1>
-                    <Holder8>
+                <Container>
+                    <Holder
+                        direction="column">
                         <H31>
                             Portfolio
                         </H31>
@@ -29,7 +30,7 @@ export default class Portfolio extends Component {
                         </P3>
                         <SubNavBar1
                             align='center'>
-                            <a href="/#WebDevelopment">Web Development/Design</a>
+                            <Link smooth to="/portfolio#webdevelopment">Web Development/Design</Link>
                             <a href="#GraphicDesign">Graphic Design</a>
                         </SubNavBar1>
                         <Carousel4>
@@ -37,10 +38,10 @@ export default class Portfolio extends Component {
                         <H41>
                             Web Development/Design
                         </H41>
-                        <div id="/#WebDevelopment"></div>
+                        <div id="webdevelopment"></div>
 
-                    </Holder8>
-                </Container1>
+                    </Holder>
+                </Container>
                 <Footer />
             </section>
         )
