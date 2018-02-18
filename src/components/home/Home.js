@@ -16,18 +16,18 @@ import aspen from '../../images/chrisinaspen.jpg';;
 
 export default class Home extends Component {
     render() {
-// <Hero1А
-//                             image={`url(${aspen})`}
-//                             height='375px' >
-//                             {''}
-//                         </Hero1>
+
         return (
             <section>
                 <Header />
-                <Container 
+                <Container
                     direction="column">
-                    <Holder 
-                     direction ='column'>
+                    <Holder
+                        direction='column'>
+                        <Hero1
+                            image={`url(${aspen})`}
+                            height='375px' >
+                        </Hero1>
                         <Holder
                             direction='column'>
                             <Holder>
@@ -58,18 +58,19 @@ export default class Home extends Component {
                                 </SquareImage>
                                 <Holder
                                     direction='column'
-                                   >
+                                    alignBlock1='flex-start'
+                                >
                                     <H32>
                                         Most Recent Work
                                     </H32>
-                                    
+
                                     <P1>
                                         My most recent project
                                     </P1>
                                 </Holder>
                             </Holder>
                             <a href="/portfolio"><P1 width="350px" >Check out my Portfolio...</P1></a>
-                            </Holder>
+                        </Holder>
                         <Holder
                             direction="column">
                             <H32>Publications</H32>

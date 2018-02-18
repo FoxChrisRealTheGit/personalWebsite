@@ -20,7 +20,7 @@ export default class Header extends Component {
                         </Brand2>
                     </a>
                     <NavBar1
-                        navbarWidth='60%' >
+                        navbarWidth='60%'>
                         <a href="/">Home</a>
                         <a href="/about">About</a>
                         <a href="/portfolio">Portfolio</a>

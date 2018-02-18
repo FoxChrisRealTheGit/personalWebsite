@@ -19,7 +19,8 @@ export default class GraphicDesign extends Component {
                     <H31>
                         Graphic Design
                     </H31>
-
+                    <Holder>
+                    </Holder>
                 </Container>
                 <Footer />
             </section>

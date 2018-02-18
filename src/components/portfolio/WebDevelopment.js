@@ -18,7 +18,8 @@ export default class WebDevelopment extends Component {
                     <H31>
                         Web Development
                     </H31>
-
+                    <Holder>
+                    </Holder>
                 </Container>
                 <Footer />
             </section>
