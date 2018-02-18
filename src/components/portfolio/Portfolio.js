@@ -40,6 +40,10 @@ export default class Portfolio extends Component {
                             </SquareImage>
                             <SquareImage>
                             </SquareImage>
+                            <SquareImage>
+                            </SquareImage>
+                            <SquareImage>
+                            </SquareImage>
                         </Holder>
                         <SubNavBar1
                             align='center'>
@@ -69,6 +73,24 @@ export default class Portfolio extends Component {
                             </Holder>
                         </Holder>
                         <Holder
+                            direction="column">
+                            <Holder>
+                                <SquareImage
+                                    size='lg'>
+                                </SquareImage>
+                                <Holder
+                                    direction="column">
+                                    <H42>
+                                        Project title
+                                    </H42>
+                                    <P1>
+                                        project description
+                                    </P1>
+                                </Holder>
+                            </Holder>
+                        </Holder>
+                        <a href="/portfolio/webdevelopment"><P1>See More Web Development...</P1></a>
+                        <Holder
                             direction='column'>
                             <H41
                                 id="graphicdesign"
@@ -92,6 +114,25 @@ export default class Portfolio extends Component {
                                     </Holder>
                                 </Holder>
                             </Holder>
+                            <Holder
+                                direction="column"
+                            >
+                                <Holder>
+                                    <SquareImage
+                                        size='lg'>
+                                    </SquareImage>
+                                    <Holder
+                                        direction="column">
+                                        <H42>
+                                            Project Two title
+                                        </H42>
+                                        <P1>
+                                            project description
+                                        </P1>
+                                    </Holder>
+                                </Holder>
+                            </Holder>
+                            <a href="/portfolio/graphicdesign"><P1>See More Graphic Design...</P1></a>
                         </Holder>
                     </Holder>
                 </Container>
