@@ -16,7 +16,7 @@ import aspen from '../../images/chrisinaspen.jpg';;
 
 export default class Home extends Component {
     render() {
-// <Hero1
+// <Hero1А
 //                             image={`url(${aspen})`}
 //                             height='375px' >
 //                             {''}
@@ -34,17 +34,17 @@ export default class Home extends Component {
                                 <Holder>
                                     <P1>
                                         I am currently attending Dev Mountain and have learned React, Javascript, html, and css. After a month and a half of instruction I decided to create my own NPM package. This resulted in the creation of Stylux, which is how this website is put together.
-                                </P1>
+                                    </P1>
                                 </Holder>
                                 <Holder>
                                     <P1>
                                         Currently, I am working on my BA in Graphic Design. I have played around witht eh creaton of various print material, but I am very interested in UX considerations surrounded web design. VR is also extremly facinating to me at the present moment.
-                                </P1>
+                                    </P1>
                                 </Holder>
                                 <Holder>
                                     <P1>
                                         I regulary perform spoken word poetry and ttry to perform when I can. I enjoy being in front of people and working with crowds. I have well over 200 pages of various scripts, a few plays being worked on, a completed novel, and a collection of short stories near completion.
-                                </P1>
+                                    </P1>
                                 </Holder>
                             </Holder>
                             <a href="/about"><P1 width="200px">Read More...</P1></a>
@@ -58,17 +58,18 @@ export default class Home extends Component {
                                 </SquareImage>
                                 <Holder
                                     direction='column'
-                                    alignBlock1 ='flex-start'>
+                                   >
                                     <H32>
                                         Most Recent Work
                                     </H32>
+                                    
                                     <P1>
                                         My most recent project
                                     </P1>
                                 </Holder>
                             </Holder>
                             <a href="/portfolio"><P1 width="350px" >Check out my Portfolio...</P1></a>
-                        </Holder>
+                            </Holder>
                         <Holder
                             direction="column">
                             <H32>Publications</H32>
@@ -79,7 +80,7 @@ export default class Home extends Component {
                                     </SquareImage>
                                     <P1>
                                         Alone
-                                </P1>
+                                    </P1>
                                 </Holder>
                                 <Holder>
                                     <P1>
@@ -89,7 +90,7 @@ export default class Home extends Component {
                                 <Holder>
                                     <P1>
                                         Gendered
-                                </P1>
+                                    </P1>
                                 </Holder>
                             </Holder>
                         </Holder>

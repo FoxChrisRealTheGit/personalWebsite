@@ -3,8 +3,8 @@ import Header from '../header/Header';
 import Footer from '../footer/Footer';
 
 import {
-    Container1,
-    Holder8,
+    Container,
+    Holder,
     H31,
 } from 'react-stylux';
 
@@ -14,13 +14,13 @@ export default class Publications extends Component {
         return (
             <section>
                 <Header />
-                <Container1>
-                    <Holder8>
+                <Container>
+                    <Holder>
                         <H31>
                             Publications
                         </H31>
-                    </Holder8>
-                </Container1>
+                    </Holder>
+                </Container>
                 <Footer />
             </section>
         )

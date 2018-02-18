@@ -9,9 +9,10 @@ import {
     Carousel4,
     SubNavBar1,
     H41,
+    H42,
+    P1,
+    SquareImage,
 } from 'react-stylux';
-
-import { HashLink as Link } from 'react-router-hash-link';
 
 
 export default class Portfolio extends Component {
@@ -28,18 +29,70 @@ export default class Portfolio extends Component {
                         <P3>
                             Something about my portfolio
                         </P3>
+                        <Holder>
+                            <SquareImage>
+                            </SquareImage>
+                            <SquareImage>
+                            </SquareImage>
+                            <SquareImage>
+                            </SquareImage>
+                            <SquareImage>
+                            </SquareImage>
+                            <SquareImage>
+                            </SquareImage>
+                        </Holder>
                         <SubNavBar1
                             align='center'>
-                            <Link smooth to="/portfolio#webdevelopment">Web Development/Design</Link>
-                            <a href="#GraphicDesign">Graphic Design</a>
+                            <a href="/portfolio#webdevelopment">Web Development/Design</a>
+                            <a href="/portfolio#graphicdesign">Graphic Design</a>
                         </SubNavBar1>
                         <Carousel4>
                         </Carousel4>
-                        <H41>
+                        <H41 id="webdevelopment">
                             Web Development/Design
                         </H41>
-                        <div id="webdevelopment"></div>
-
+                        <Holder
+                            direction="column">
+                            <Holder>
+                                <SquareImage
+                                    size='lg'>
+                                </SquareImage>
+                                <Holder
+                                    direction="column">
+                                    <H42>
+                                        Project title
+                                    </H42>
+                                    <P1>
+                                        project description
+                                    </P1>
+                                </Holder>
+                            </Holder>
+                        </Holder>
+                        <Holder
+                            direction='column'>
+                            <H41
+                                id="graphicdesign"
+                                margin="100px 0 20px 0">
+                                Graphic Design
+                            </H41>
+                            <Holder
+                                direction="column">
+                                <Holder>
+                                    <SquareImage
+                                        size='lg'>
+                                    </SquareImage>
+                                    <Holder
+                                        direction="column">
+                                        <H42>
+                                            Project title
+                                        </H42>
+                                        <P1>
+                                            project description
+                                        </P1>
+                                    </Holder>
+                                </Holder>
+                            </Holder>
+                        </Holder>
                     </Holder>
                 </Container>
                 <Footer />
