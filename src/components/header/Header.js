@@ -6,6 +6,8 @@ import {
     Brand2,
 } from 'react-stylux';
 
+import {Link} from 'react-router-dom';
+
 import tail from '../../images/SVG/foxtail2-1.svg';
 export default class Header extends Component {
     render() {
@@ -13,17 +15,17 @@ export default class Header extends Component {
             <Container>
                 <Holder
                     direction ="column">
-                    <a href="/">
+                    <Link to="/">
                         <Brand2
                             size='sm'>
                         {tail}
                         </Brand2>
-                    </a>
+                    </Link>
                     <NavBar1
                         navbarWidth='60%'>
-                        <a href="/">Home</a>
-                        <a href="/about">About</a>
-                        <a href="/portfolio">Portfolio</a>
+                        <Link to="/">Home</Link>
+                        <Link to="/about">About</Link>
+                        <Link to="/portfolio">Portfolio</Link>
                     </NavBar1>
                 </Holder>
             </Container>

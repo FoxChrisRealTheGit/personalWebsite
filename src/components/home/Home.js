@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
-
+import {Link} from 'react-router-dom';
 import {
     Container,
     Holder,
@@ -31,23 +31,38 @@ export default class Home extends Component {
                         <Holder
                             direction='column'>
                             <Holder>
-                                <Holder>
+                                <Holder
+                                    direction='column'>
+                                <SquareImage
+                                        size="md">
+                                        {aspen}
+                                    </SquareImage>
                                     <P1>
                                         I am currently attending Dev Mountain and have learned React, Javascript, html, and css. After a month and a half of instruction I decided to create my own NPM package. This resulted in the creation of Stylux, which is how this website is put together.
                                     </P1>
                                 </Holder>
-                                <Holder>
+                                <Holder
+                                    direction='column'>
+                                    <SquareImage
+                                            size="md">
+                                            {}
+                                        </SquareImage>
                                     <P1>
                                         Currently, I am working on my BA in Graphic Design. I have played around witht eh creaton of various print material, but I am very interested in UX considerations surrounded web design. VR is also extremly facinating to me at the present moment.
                                     </P1>
                                 </Holder>
-                                <Holder>
+                                <Holder
+                                    direction='column'>
+                                    <SquareImage
+                                            size="md">
+                                            {}
+                                        </SquareImage>
                                     <P1>
                                         I regulary perform spoken word poetry and ttry to perform when I can. I enjoy being in front of people and working with crowds. I have well over 200 pages of various scripts, a few plays being worked on, a completed novel, and a collection of short stories near completion.
                                     </P1>
                                 </Holder>
                             </Holder>
-                            <a href="/about"><P1 width="200px">Read More...</P1></a>
+                            <Link to="/about"><P1 width="200px">Read More...</P1></Link>
                         </Holder>
                         <Holder
                             direction='column'>
@@ -69,7 +84,7 @@ export default class Home extends Component {
                                     </P1>
                                 </Holder>
                             </Holder>
-                            <a href="/portfolio"><P1 width="350px" >Check out my Portfolio...</P1></a>
+                            <Link to="/portfolio"><P1 width="350px" >Check out my Portfolio...</P1></Link>
                         </Holder>
                         <Holder
                             direction="column">
@@ -77,25 +92,37 @@ export default class Home extends Component {
                             <Holder>
                                 <Holder
                                     direction='column'>
-                                    <SquareImage>
+                                    <SquareImage
+                                        size="md">
+                                        {}
                                     </SquareImage>
                                     <P1>
                                         Alone
                                     </P1>
                                 </Holder>
-                                <Holder>
+                                <Holder
+                                    direction='column'>
+                                    <SquareImage
+                                        size="md">
+                                        {}
+                                    </SquareImage>
                                     <P1>
                                         Crypto-currency: a history
-                                </P1>
+                                    </P1>
                                 </Holder>
-                                <Holder>
+                                <Holder
+                                    direction='column'>
+                                    <SquareImage
+                                        size="md">
+                                        {}
+                                    </SquareImage>
                                     <P1>
                                         Gendered
                                     </P1>
                                 </Holder>
                             </Holder>
                         </Holder>
-                        <a href="/publications"><P1 width="400px">Check Out My Publications...</P1></a>
+                        <Link to="/publications"><P1 width="400px">Check Out My Publications...</P1></Link>
                     </Holder>
                 </Container>
                 <Footer />

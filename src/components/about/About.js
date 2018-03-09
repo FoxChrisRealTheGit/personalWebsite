@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
+import {Link} from 'react-router-dom';
 import {
     Container,
     Holder,
@@ -21,8 +22,14 @@ export default class About extends Component {
                     {''}
                 </Hero1>
                 <Container>
-                    <Holder>
-                        <a href="/about/fullstory"><P1 width='250px'>Read My Full Story...</P1></a>
+                    <Holder
+                        direction='column'>
+                        <P1
+                           padding='10%'>
+                            I am an aspiring web developer working on my degree in graphic design. I have my ACE in Illustrator and a working familiarity with React, JavaScript, HTML, and CSS. Please see my NPM page for working packages: https://www.npmjs.com/~foxchrisrealthe
+                            and my github: https://github.com/FoxChrisRealTheGit
+                        </P1>
+                        <Link to="/about/fullstory"><P1 width='250px'>Read My Full Story...</P1></Link>
                     </Holder>
                 </Container>
                 <Footer />

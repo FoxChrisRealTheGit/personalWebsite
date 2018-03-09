@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
+import { Link } from 'react-router-dom';
 import {
     Container,
     Holder,
@@ -12,6 +13,7 @@ import {
     H42,
     P1,
     SquareImage,
+    BulletList1,
 } from 'react-stylux';
 
 
@@ -64,11 +66,14 @@ export default class Portfolio extends Component {
                                 <Holder
                                     direction="column">
                                     <H42>
-                                        Project title
+                                        Peax Games | React | Socket.io | Phaser
                                     </H42>
-                                    <P1>
-                                        project description
-                                    </P1>
+                                    <BulletList1>
+                                        {'Html5 Game arcade built with Phaser for React'}
+                                        {'Had to create work arounds for Phaser to operate correctly'}
+                                        {'Group project - I was responsible for Game Development'}
+                                        {'https://github.com/Game-Board-Guys/GameBoard'}
+                                    </BulletList1>
                                 </Holder>
                             </Holder>
                         </Holder>
@@ -81,15 +86,18 @@ export default class Portfolio extends Component {
                                 <Holder
                                     direction="column">
                                     <H42>
-                                        Project title
+                                        Ataraxy Clothing | React | react-styux | Stripe
                                     </H42>
-                                    <P1>
-                                        project description
-                                    </P1>
+                                    <BulletList1>
+                                        {'Won most technical award during presentations'}
+                                        {'Designed a component library to build this project'}
+                                        {'This is a full-stack application with complete stripe integratio'}
+                                        {'https://github.com/FoxChrisRealTheGit/AtaraxyClothing'}
+                                    </BulletList1>
                                 </Holder>
                             </Holder>
                         </Holder>
-                        <a href="/portfolio/webdevelopment"><P1>See More Web Development...</P1></a>
+                        <Link to="/portfolio/webdevelopment"><P1>See More Web Development...</P1></Link>
                         <Holder
                             direction='column'>
                             <H41
@@ -106,7 +114,7 @@ export default class Portfolio extends Component {
                                     <Holder
                                         direction="column">
                                         <H42>
-                                            Project title
+                                            Play poster
                                         </H42>
                                         <P1>
                                             project description
@@ -124,15 +132,35 @@ export default class Portfolio extends Component {
                                     <Holder
                                         direction="column">
                                         <H42>
-                                            Project Two title
+                                            Final Restaraunt project
                                         </H42>
-                                        <P1>
-                                            project description
-                                        </P1>
+                                        <BulletList1>
+                                            {'Menu'}
+                                            {'Brochure'}
+                                            {'Table Tent'}
+                                        </BulletList1>
                                     </Holder>
                                 </Holder>
                             </Holder>
-                            <a href="/portfolio/graphicdesign"><P1>See More Graphic Design...</P1></a>
+                            <Holder
+                                direction="column"
+                            >
+                                <Holder>
+                                    <SquareImage
+                                        size='lg'>
+                                    </SquareImage>
+                                    <Holder
+                                        direction="column">
+                                        <H42>
+                                            Another project
+                                        </H42>
+                                        <BulletList1>
+                                            {'List'}
+                                        </BulletList1>
+                                    </Holder>
+                                </Holder>
+                            </Holder>
+                            <Link to="/portfolio/graphicdesign"><P1>See More Graphic Design...</P1></Link>
                         </Holder>
                     </Holder>
                 </Container>
