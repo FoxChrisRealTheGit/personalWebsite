@@ -14,6 +14,7 @@ import {
     P1,
     SquareImage,
     BulletList1,
+    HR,
 } from 'react-stylux';
 
 
@@ -46,6 +47,8 @@ export default class Portfolio extends Component {
                             </SquareImage>
                             <SquareImage>
                             </SquareImage>
+                            <SquareImage>
+                            </SquareImage>
                         </Holder>
                         <SubNavBar1
                             align='center'>
@@ -59,6 +62,29 @@ export default class Portfolio extends Component {
                         </H41>
                         <Holder
                             direction="column">
+                            <a href="/portfolio/webdevelopment/reactstylux">
+                            <Holder>
+                                <SquareImage
+                                    size='lg'>
+                                </SquareImage>
+                                <Holder
+                                    direction="column">
+                                    <H42>
+                                        react-stylux | React | NPM | Babel
+                                    </H42>
+                                    <BulletList1>
+                                        {'Component library with layout mechanic'}
+                                        {'Uses style object to style components through props'}
+                                        {'Still under development'}
+                                        {'https://github.com/Fox-Design-Agency/react-stylux'}
+                                    </BulletList1>
+                                </Holder>
+                            </Holder>
+                            </a>
+                        </Holder>
+                        <Holder
+                            direction="column">
+                            <a href="/portfolio/webdevelopment/peaxgames">
                             <Holder>
                                 <SquareImage
                                     size='lg'>
@@ -76,9 +102,11 @@ export default class Portfolio extends Component {
                                     </BulletList1>
                                 </Holder>
                             </Holder>
+                            </a>
                         </Holder>
                         <Holder
                             direction="column">
+                            <a href="/portfolio/webdevelopment/ataraxyclothing">
                             <Holder>
                                 <SquareImage
                                     size='lg'>
@@ -96,8 +124,10 @@ export default class Portfolio extends Component {
                                     </BulletList1>
                                 </Holder>
                             </Holder>
+                            </a>
                         </Holder>
                         <Link to="/portfolio/webdevelopment"><P1>See More Web Development...</P1></Link>
+                        <HR height="300px" />
                         <Holder
                             direction='column'>
                             <H41
@@ -107,6 +137,7 @@ export default class Portfolio extends Component {
                             </H41>
                             <Holder
                                 direction="column">
+                                <a href="/portfolio/graphicdesign/nightmaresposter">
                                 <Holder>
                                     <SquareImage
                                         size='lg'>
@@ -121,10 +152,12 @@ export default class Portfolio extends Component {
                                         </P1>
                                     </Holder>
                                 </Holder>
+                                </a>
                             </Holder>
                             <Holder
                                 direction="column"
                             >
+                            <a href="/portfolio/graphicdesign/restarauntproject">
                                 <Holder>
                                     <SquareImage
                                         size='lg'>
@@ -141,10 +174,12 @@ export default class Portfolio extends Component {
                                         </BulletList1>
                                     </Holder>
                                 </Holder>
+                                </a>
                             </Holder>
                             <Holder
                                 direction="column"
                             >
+                            <a href="/portfolio/graphicdesign/lanzorettecalender">
                                 <Holder>
                                     <SquareImage
                                         size='lg'>
@@ -159,10 +194,32 @@ export default class Portfolio extends Component {
                                         </BulletList1>
                                     </Holder>
                                 </Holder>
+                                </a>
+                            </Holder>
+                            <Holder
+                                direction="column"
+                            >
+                            <a href="/portfolio/graphicdesign/grooperlogo">
+                                <Holder>
+                                    <SquareImage
+                                        size='lg'>
+                                    </SquareImage>
+                                    <Holder
+                                        direction="column">
+                                        <H42>
+                                            Another project
+                                        </H42>
+                                        <BulletList1>
+                                            {'List'}
+                                        </BulletList1>
+                                    </Holder>
+                                </Holder>
+                                </a>
                             </Holder>
                             <Link to="/portfolio/graphicdesign"><P1>See More Graphic Design...</P1></Link>
                         </Holder>
                     </Holder>
+                    <HR height="300px" />
                 </Container>
                 <Footer />
             </section>
