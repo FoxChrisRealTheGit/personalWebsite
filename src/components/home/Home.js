@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import {
     Container,
     Holder,
@@ -10,6 +10,8 @@ import {
     H32,
     P1,
     SquareImage,
+    HR,
+    Card1,
 } from "react-stylux";
 
 import aspen from '../../images/chrisinaspen.jpg';;
@@ -28,44 +30,35 @@ export default class Home extends Component {
                             image={`url(${aspen})`}
                             height='375px' >
                         </Hero1>
-                        <Holder
-                            direction='column'>
+                       <Holder
+                            direction='column'> 
+                            <a href="/about">
                             <Holder>
-                                <Holder
-                                    direction='column'>
-                                <SquareImage
-                                        size="md">
-                                        {aspen}
-                                    </SquareImage>
-                                    <P1>
-                                        I am currently attending Dev Mountain and have learned React, Javascript, html, and css. After a month and a half of instruction I decided to create my own NPM package. This resulted in the creation of Stylux, which is how this website is put together.
-                                    </P1>
-                                </Holder>
-                                <Holder
-                                    direction='column'>
-                                    <SquareImage
-                                            size="md">
-                                            {}
-                                        </SquareImage>
-                                    <P1>
-                                        Currently, I am working on my BA in Graphic Design. I have played around witht eh creaton of various print material, but I am very interested in UX considerations surrounded web design. VR is also extremly facinating to me at the present moment.
-                                    </P1>
-                                </Holder>
-                                <Holder
-                                    direction='column'>
-                                    <SquareImage
-                                            size="md">
-                                            {}
-                                        </SquareImage>
-                                    <P1>
-                                        I regulary perform spoken word poetry and ttry to perform when I can. I enjoy being in front of people and working with crowds. I have well over 200 pages of various scripts, a few plays being worked on, a completed novel, and a collection of short stories near completion.
-                                    </P1>
-                                </Holder>
+                                <Card1>
+                                    {aspen}
+                                    {"Christopher in aspen"}
+                                    {'I am currently attending Dev Mountain and have learned React, Javascript, html, and css. After a month and a half of instruction I decided to create my own NPM package. This resulted in the creation of Stylux, which is how this website is put together.'}
+
+                                </Card1>
+                                <Card1>
+                                    {}
+                                    {}
+                                    Currently, I am working on my BA in Graphic Design. I have played around witht eh creaton of various print material, but I am very interested in UX considerations surrounded web design. VR is also extremly facinating to me at the present moment.
+                                   </Card1>
+                                <Card1>
+                                    {}
+                                    I regulary perform spoken word poetry and ttry to perform when I can. I enjoy being in front of people and working with crowds. I have well over 200 pages of various scripts, a few plays being worked on, a completed novel, and a collection of short stories near completion.
+                                   </Card1>
                             </Holder>
-                            <Link to="/about"><P1 width="200px">Read More...</P1></Link>
+  </a>
                         </Holder>
+                      
+
+                        <HR height="300px" />
+                       
                         <Holder
                             direction='column'>
+                             <a href="/portfolio">
                             <Holder>
                                 <SquareImage
                                     size="lg">
@@ -84,10 +77,14 @@ export default class Home extends Component {
                                     </P1>
                                 </Holder>
                             </Holder>
-                            <Link to="/portfolio"><P1 width="350px" >Check out my Portfolio...</P1></Link>
+                             </a>
                         </Holder>
+                       
+                        <HR height="300px" />
+                        
                         <Holder
                             direction="column">
+                            <a href="/publications">
                             <H32>Publications</H32>
                             <Holder>
                                 <Holder
@@ -121,10 +118,13 @@ export default class Home extends Component {
                                     </P1>
                                 </Holder>
                             </Holder>
-                        </Holder>
-                        <Link to="/publications"><P1 width="400px">Check Out My Publications...</P1></Link>
+                            </a>
+                        </Holder> 
+                        
                     </Holder>
+                    <HR height="300px" />
                 </Container>
+                
                 <Footer />
             </section>
         )
