@@ -12,6 +12,7 @@ import {
     SquareImage,
     HR,
     Card1,
+    H11,
 } from "react-stylux";
 
 import aspen from '../../images/chrisinaspen.jpg';;
@@ -30,6 +31,7 @@ export default class Home extends Component {
                             image={`url(${aspen})`}
                             height='375px' >
                         </Hero1>
+                        <H11> This is still under construction </H11>
                         <Holder
                             direction='column'>
                             <a href="/about">
