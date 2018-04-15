@@ -25,7 +25,7 @@ import reactIcon from "../../images/portfolio/icons/SVG/ReactIcon.svg"
 import GoIcon from "../../images/portfolio/icons/SVG/GoIcon.svg"
 import jsIcon from "../../images/portfolio/icons/SVG/jsIcon.svg"
 import htmlIcon from "../../images/portfolio/icons/SVG/htmlIcon.svg"
-// import sqlIcon from "../../images/portfolio/icons/SVG/sqlIcon.svg"
+import sqlIcon from "../../images/portfolio/icons/SVG/sqlIcon.svg"
 
 export default class Portfolio extends Component {
     render() {
@@ -71,7 +71,7 @@ export default class Portfolio extends Component {
                             {"The symbol for html 5"}
                             </SquareImage>
                             <SquareImage>
-                            {""}
+                            {sqlIcon}
                             {"The symbol for SQL"}
                             </SquareImage>
                         </Holder>
@@ -183,6 +183,7 @@ export default class Portfolio extends Component {
                                     </Holder>
                                 </Holder>
                                 </a>
+                                <HR />
                             </Holder>
                             <Holder
                                 direction="column"
@@ -205,6 +206,7 @@ export default class Portfolio extends Component {
                                     </Holder>
                                 </Holder>
                                 </a>
+                                <HR />
                             </Holder>
                             <Holder
                                 direction="column"
@@ -225,6 +227,7 @@ export default class Portfolio extends Component {
                                     </Holder>
                                 </Holder>
                                 </a>
+                                <HR />
                             </Holder>
                             <Holder
                                 direction="column"
