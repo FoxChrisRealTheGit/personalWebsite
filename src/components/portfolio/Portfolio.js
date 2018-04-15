@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import { Link } from 'react-router-dom';
+import "../../css/Main.css";
 import {
     Container,
     Holder,
@@ -17,6 +18,14 @@ import {
     HR,
 } from 'react-stylux';
 
+import psIcon from "../../images/portfolio/icons/SVG/psIcon.svg"
+import aiIcon from "../../images/portfolio/icons/SVG/aiIcon.svg"
+import cssIcon from "../../images/portfolio/icons/SVG/cssIcon.svg"
+import reactIcon from "../../images/portfolio/icons/SVG/ReactIcon.svg"
+import GoIcon from "../../images/portfolio/icons/SVG/GoIcon.svg"
+import jsIcon from "../../images/portfolio/icons/SVG/jsIcon.svg"
+import htmlIcon from "../../images/portfolio/icons/SVG/htmlIcon.svg"
+// import sqlIcon from "../../images/portfolio/icons/SVG/sqlIcon.svg"
 
 export default class Portfolio extends Component {
     render() {
@@ -34,20 +43,36 @@ export default class Portfolio extends Component {
                         </P3>
                         <Holder>
                             <SquareImage>
+                            {psIcon}
+                            {"The logo for adobe photoshop cc"}
                             </SquareImage>
                             <SquareImage>
+                            {aiIcon}
+                            {"The logo for adobe illustrator cc"}
                             </SquareImage>
                             <SquareImage>
+                            {cssIcon}
+                            {"The symbol for css"}
                             </SquareImage>
                             <SquareImage>
+                            {reactIcon}
+                            {"The logo for React.js"}
                             </SquareImage>
                             <SquareImage>
+                            {GoIcon}
+                            {"The icon for Go lang"}
                             </SquareImage>
                             <SquareImage>
+                            {jsIcon}
+                            {"The symbol for javascript"}
                             </SquareImage>
                             <SquareImage>
+                            {htmlIcon}
+                            {"The symbol for html 5"}
                             </SquareImage>
                             <SquareImage>
+                            {""}
+                            {"The symbol for SQL"}
                             </SquareImage>
                         </Holder>
                         <SubNavBar1
@@ -57,19 +82,21 @@ export default class Portfolio extends Component {
                         </SubNavBar1>
                         <Carousel4>
                         </Carousel4>
-                        <H41 id="webdevelopment">
+                        <H41 id="webdevelopment" 
+                            margin="100px 0 20px 0">
                             Web Development/Design
                         </H41>
                         <Holder
                             direction="column">
                             <a href="/portfolio/webdevelopment/reactstylux">
-                            <Holder>
+                            <Holder
+                                alignBlock1= "flex-start">
                                 <SquareImage
                                     size='lg'>
                                 </SquareImage>
                                 <Holder
                                     direction="column">
-                                    <H42>
+                                    <H42 margin="0 0 50px 0">
                                         react-stylux | React | NPM | Babel
                                     </H42>
                                     <BulletList1>
@@ -81,6 +108,7 @@ export default class Portfolio extends Component {
                                 </Holder>
                             </Holder>
                             </a>
+                            <HR />
                         </Holder>
                         <Holder
                             direction="column">
@@ -91,7 +119,7 @@ export default class Portfolio extends Component {
                                 </SquareImage>
                                 <Holder
                                     direction="column">
-                                    <H42>
+                                    <H42 margin="0 0 50px 0">
                                         Peax Games | React | Socket.io | Phaser
                                     </H42>
                                     <BulletList1>
@@ -103,6 +131,7 @@ export default class Portfolio extends Component {
                                 </Holder>
                             </Holder>
                             </a>
+                            <HR />
                         </Holder>
                         <Holder
                             direction="column">
@@ -113,7 +142,7 @@ export default class Portfolio extends Component {
                                 </SquareImage>
                                 <Holder
                                     direction="column">
-                                    <H42>
+                                    <H42 margin="0 0 50px 0">
                                         Ataraxy Clothing | React | react-styux | Stripe
                                     </H42>
                                     <BulletList1>
@@ -125,6 +154,7 @@ export default class Portfolio extends Component {
                                 </Holder>
                             </Holder>
                             </a>
+                            
                         </Holder>
                         <Link to="/portfolio/webdevelopment"><P1>See More Web Development...</P1></Link>
                         <HR height="300px" />
@@ -144,8 +174,8 @@ export default class Portfolio extends Component {
                                     </SquareImage>
                                     <Holder
                                         direction="column">
-                                        <H42>
-                                            Play poster
+                                        <H42 margin="0 0 50px 0">
+                                            Play poster | Illustrator CC | Photoshop CC
                                         </H42>
                                         <P1>
                                             project description
@@ -164,8 +194,8 @@ export default class Portfolio extends Component {
                                     </SquareImage>
                                     <Holder
                                         direction="column">
-                                        <H42>
-                                            Final Restaraunt project
+                                        <H42 margin="0 0 50px 0">
+                                            Final Restaraunt project | InDesign CC | Illustrator CC
                                         </H42>
                                         <BulletList1>
                                             {'Menu'}
@@ -186,7 +216,7 @@ export default class Portfolio extends Component {
                                     </SquareImage>
                                     <Holder
                                         direction="column">
-                                        <H42>
+                                        <H42 margin="0 0 50px 0">
                                             Another project
                                         </H42>
                                         <BulletList1>
@@ -206,7 +236,7 @@ export default class Portfolio extends Component {
                                     </SquareImage>
                                     <Holder
                                         direction="column">
-                                        <H42>
+                                        <H42 margin="0 0 50px 0">
                                             Another project
                                         </H42>
                                         <BulletList1>
