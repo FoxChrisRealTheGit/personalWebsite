@@ -9,7 +9,7 @@
     "react-router-dom": "^4.2.2",
     "react-router-hash-link": "^1.2.0",
     "react-scripts": "1.1.0",
-    "react-stylux": "^0.4.4"
+    "react-stylux": "^0.4.5"
   },
   "scripts": {
     "start": "react-scripts start",

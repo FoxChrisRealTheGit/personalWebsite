@@ -13,9 +13,12 @@ import {
     HR,
     Card1,
     H11,
+    A,
 } from "react-stylux";
 
-import aspen from '../../images/chrisinaspen.jpg';;
+import aspen from '../../images/chrisinaspen.jpg';
+
+import genderedcover from "../../images/publications/BookCoverTwo.jpg"
 
 export default class Home extends Component {
     render() {
@@ -34,7 +37,7 @@ export default class Home extends Component {
                         <H11> This is still under construction </H11>
                         <Holder
                             direction='column'>
-                            <a href="/about">
+                            <A width="1200px" to="/about">
                                 <Holder>
                                     <Card1>
                                         {aspen}
@@ -56,7 +59,7 @@ export default class Home extends Component {
                                         I regulary perform spoken word poetry and ttry to perform when I can. I enjoy being in front of people and working with crowds. I have well over 200 pages of various scripts, a few plays being worked on, a completed novel, and a collection of short stories near completion.
                                    </Card1>
                                 </Holder>
-                            </a>
+                            </A>
                         </Holder>
 
 
@@ -110,9 +113,9 @@ export default class Home extends Component {
                                     </a>
                                     <a href="#" className="publicationTag">
                                         <Card1>
-                                            {''}
+                                            {genderedcover}
                                             {"Gendered Book cover"}
-                                            Gendered
+                                          
                                         </Card1>
                                     </a>
                                 </Holder>
