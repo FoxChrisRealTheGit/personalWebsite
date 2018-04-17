@@ -19,6 +19,8 @@ import {
 import aspen from '../../images/chrisinaspen.jpg';
 
 import genderedcover from "../../images/publications/BookCoverTwo.jpg"
+import card1ComingSoon from "../../images/placeholders/card1ComingSoon.jpg";
+import aristosPlaceholder from "../../images/placeholders/aristosPlaceholder.jpg";
 
 export default class Home extends Component {
     render() {
@@ -40,23 +42,23 @@ export default class Home extends Component {
                             <A width="1200px" to="/about">
                                 <Holder>
                                     <Card1>
-                                        {aspen}
-                                        {"Christopher in aspen"}
+                                        {card1ComingSoon}
+                                        {"Placeholder for a developer type image"}
                                         {"Developer"}
-                                        {'I am currently attending Dev Mountain and have learned React, Javascript, html, and css. After a month and a half of instruction I decided to create my own NPM package. This resulted in the creation of Stylux, which is how this website is put together.'}
+                                        {"I am a very self-motivated web developer with knowledge of Golang, ReactJs, Javascript, HTML, CSS, RESTful, Express, and NodeJS. Currently, I am exploring various computer science topics and data structure solutions. Kali Linux also has my interest."}
 
                                     </Card1>
                                     <Card1>
-                                    {aspen}
-                                    {"Christopher in aspen"}
-                                    {"Designer"}
-                                        Currently, I am working on my BA in Graphic Design. I have played around witht eh creaton of various print material, but I am very interested in UX considerations surrounded web design. VR is also extremly facinating to me at the present moment.
+                                        {card1ComingSoon}
+                                        {"Placeholder for a designer type image"}
+                                        {"Designer"}
+                                        {"Currently, I am working on my BA in Graphic Design. I have played around with the creation of various print material, but I am very interested in the UX considerations surrounding web design. VR is also extremely fascinating to me at the present moment."}
                                    </Card1>
                                     <Card1>
-                                    {aspen}
-                                    {"Christopher in aspen"}
-                                    {"Writer"}
-                                        I regulary perform spoken word poetry and ttry to perform when I can. I enjoy being in front of people and working with crowds. I have well over 200 pages of various scripts, a few plays being worked on, a completed novel, and a collection of short stories near completion.
+                                        {card1ComingSoon}
+                                        {"Placeholder for a writer type image"}
+                                        {"Writer"}
+                                        {"I regularly perform spoken word poetry and try to tell stories when I can. I enjoy being in front of people and working with crowds. I have well over 200 pages of various scripts, a few plays being worked on, a completed novel, and a collection of short stories near completion."}
                                    </Card1>
                                 </Holder>
                             </A>
@@ -67,26 +69,29 @@ export default class Home extends Component {
 
                         <Holder
                             direction='column'>
-                            <a href="/portfolio">
-                                <Holder>
+                            <Link to="/portfolio">
+                                <H32>
+                                    Most Recent Work
+                                </H32>
+                            </Link>
+                            <Holder>
+                                <Link to="/portfolio">
                                     <SquareImage
                                         size="lg">
-                                        {}
+                                        {aristosPlaceholder}
                                     </SquareImage>
-                                    <Holder
-                                        direction='column'
-                                        alignBlock1='flex-start'
-                                    >
-                                        <H32>
-                                            Most Recent Work
-                                    </H32>
+                                </Link>
+                                <Holder
+                                    direction='column'>
 
+                                    <Link to="/portfolio">
                                         <P1>
                                             Aristos CMS
-                                    </P1>
-                                    </Holder>
+                                        </P1>
+                                    </Link>
                                 </Holder>
-                            </a>
+                            </Holder>
+
                         </Holder>
 
                         <HR height="300px" />
@@ -95,31 +100,31 @@ export default class Home extends Component {
                             direction="column">
                             <a href="/publications">
                                 <H32>Publications</H32>
+                            </a>
+                            <Holder>
+                                <a href="#" className="publicationTag">
+                                    <Card1>
+                                        {card1ComingSoon}
+                                        {"Alone Book Cover"}
+                                        Alone
+                                        </Card1>
                                 </a>
-                                <Holder>
-                                    <a href="#" className="publicationTag">
-                                        <Card1>
-                                            {''}
-                                            {"Alone Book Cover"}
-                                            Alone
-                                        </Card1>
-                                    </a>
-                                    <a href="#" className="publicationTag">
-                                        <Card1>
-                                            {''}
-                                            {"Crypto-Currency: A History Book Cover"}
-                                            Crypto-currency: a history
+                                <a href="#" className="publicationTag">
+                                    <Card1>
+                                        {card1ComingSoon}
+                                        {"Crypto-Currency: A History Book Cover"}
+                                        Crypto-currency: a history
                                    </Card1>
-                                    </a>
-                                    <a href="#" className="publicationTag">
-                                        <Card1>
-                                            {genderedcover}
-                                            {"Gendered Book cover"}
-                                          
-                                        </Card1>
-                                    </a>
-                                </Holder>
-                            
+                                </a>
+                                <a href="#" className="publicationTag">
+                                    <Card1>
+                                        {genderedcover}
+                                        {"Gendered Book cover"}
+
+                                    </Card1>
+                                </a>
+                            </Holder>
+
                         </Holder>
 
                     </Holder>
