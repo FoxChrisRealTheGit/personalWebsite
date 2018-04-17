@@ -17,18 +17,18 @@ export default class About extends Component {
         return (
             <section>
                 <Header />
-                <a href="/about/fullstory"><Hero1
-                    image={`url(${standing})`}
-                    height='300px' >
-                    {''}
-                </Hero1></a>
+                
                 <Container>
+                <HR height="300px" />
                         <Holder
                             direction='column'>
+                           
                             <P1
                                 padding='10%'>
-                                I am an aspiring web developer working on my degree in graphic design. I have my ACE in Illustrator and a working familiarity with React, JavaScript, HTML, and CSS. Please see my NPM page for <a href="https://www.npmjs.com/~foxchrisrealthe">working packages</a>, and my <a href="https://github.com/FoxChrisRealTheGit">github</a> 
-                            </P1>
+                                I am an aspiring web developer working on my degree in graphic design. I have my ACE in Illustrator and a working familiarity with React, JavaScript, HTML, and CSS. Please see my NPM page for <a href="https://www.npmjs.com/~foxchrisrealthe" target="_blank">working packages</a>, and my <a href="https://github.com/FoxChrisRealTheGit" target="_blank">github</a> 
+                            </P1> 
+                            <Link to="">
+                            </Link>
                         </Holder>
                     
                     <HR height="300px" />
