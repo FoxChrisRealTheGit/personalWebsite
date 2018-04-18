@@ -26,6 +26,7 @@ import jsIcon from "../../images/portfolio/icons/SVG/jsIcon.svg"
 import htmlIcon from "../../images/portfolio/icons/SVG/htmlIcon.svg"
 import sqlIcon from "../../images/portfolio/icons/SVG/sqlIcon.svg"
 
+import aristosPoster from "../../images/placeholders/aristosPlaceholder.jpg"
 import reactstyluximg from "../../images/portfolio/webdevelopment/reactStyluxTOC_LG.jpg"
 import peaxgamesimg from "../../images/portfolio/webdevelopment/PeaxLogin_LG.jpg"
 import ataraxyclothingimg from "../../images/portfolio/webdevelopment/AtaraxyClothingHomepage_LG.jpg"
@@ -104,20 +105,48 @@ export default class Portfolio extends Component {
                                 alignBlock1= "flex-start">
                                 <SquareImage
                                     size='lg'>
+                                    {aristosPoster}
+                                    {"The first draft logo for the Aristos Prject"}
+                                </SquareImage>
+                                <Holder
+                                    direction="column">
+                                    <H42 margin="0 0 50px 0">
+                                        Aristos Project | Golang | AWS
+                                    </H42>
+                                    <BulletList1>
+                                        {"In initial development stages"}
+                                        {"CMS and Website builder built in Golang"}
+                                        {"All pages set up with HTTPS through Let's Encrypt"}
+                                        {"Multiple encoders and decoders built for many file types"}
+                                        {"Working on full AWS integration"}
+                                    </BulletList1>
+                                </Holder>
+                            </Holder>
+                            </A>
+                            <HR />
+                        </Holder>
+                        <Holder
+                            direction="column">
+                            <A width="85%" to="/portfolio/webdevelopment/reactstylux">
+                            <Holder
+                                alignBlock1= "flex-start">
+                                <SquareImage
+                                    size='lg'>
                                     {reactstyluximg}
                                     {"The Table of Contents on Github for react-stylux"}
                                 </SquareImage>
                                 <Holder
                                     direction="column">
                                     <H42 margin="0 0 50px 0">
-                                        react-stylux | React | NPM | Babel
+                                        react-stylux | React | Babel | NPM
                                     </H42>
                                     <BulletList1>
-                                        {'Component library with layout mechanic'}
-                                        {'Uses style object to style components through props'}
-                                        {'Still under development'}
-                                        {"This web page was built with react-stylux"}
-                                        {'https://github.com/Fox-Design-Agency/react-stylux'}
+                                        {"Still under development"}
+                                        {"Component library with layout mechanic"}
+                                        {"Uses style object to style components through props"}
+                                        {"This web page was built with react-stylux to test capability"}
+                                        <a href="https://github.com/Fox-Design-Agency/react-stylux" rel="noopener noreferrer" target="_blank">react-stylux Github</a>
+                                        <a href="https://www.npmjs.com/package/react-stylux" rel="noopener noreferrer" target="_blank">react-stylux NPM</a>
                                     </BulletList1>
                                 </Holder>
                             </Holder>
@@ -139,10 +168,12 @@ export default class Portfolio extends Component {
                                         Peax Games | React | Socket.io | Phaser
                                     </H42>
                                     <BulletList1>
-                                        {'Html5 Game arcade built with Phaser for React'}
-                                        {'Had to create work arounds for Phaser to operate correctly'}
-                                        {'Group project - I was responsible for Game Development'}
-                                        {'https://github.com/Game-Board-Guys/GameBoard'}
+                                        {"Group project - I was responsible for Game Development"}
+                                        {"Html5 Game arcade built with Phaser for React"}
+                                        {"Had to create work arounds for Phaser to operate correctly"}
+                                        {"Studied OO concepts to build better game code structure"}
+                                        <a href="https://github.com/Game-Board-Guys/GameBoard" rel="noopener noreferrer" target="_blank">Peax Games Github</a>
+                                        <a href="http://peaxgames.com/" rel="noopener noreferrer" target="_blank">Peax Games Website</a>
                                     </BulletList1>
                                 </Holder>
                             </Holder>
@@ -164,11 +195,12 @@ export default class Portfolio extends Component {
                                         Ataraxy Clothing | React | react-styux | Stripe
                                     </H42>
                                     <BulletList1>
-                                        {'Won most technical award during presentations'}
-                                        {'Designed a component library to build this project'}
-                                        {'This is a full-stack application with complete stripe integration'}
-                                        {"Built using react-stylux"}
-                                        {'https://github.com/FoxChrisRealTheGit/AtaraxyClothing'}
+                                        {"Won most technical award during personal project presentations"}
+                                        {"Designed a component library (react-stylux) to build this project"}
+                                        {"This is a full-stack application with complete stripe integration"}
+                                        {"Currently rewritting the backend with Golang"}
+                                        <a href="https://github.com/FoxChrisRealTheGit/AtaraxyClothing" rel="noopener noreferrer" target="_blank">Ataraxy Clothing Github</a>
+                                        <a href="https://ataraxyclothing.com/" rel="noopener noreferrer" target="_blank">Ataraxy Clothing website</a>
                                     </BulletList1>
                                 </Holder>
                             </Holder>
@@ -262,7 +294,7 @@ export default class Portfolio extends Component {
                                     <Holder
                                         direction="column">
                                         <H42 margin="0 0 50px 0">
-                                            Another project
+                                            Magazine Cover Clones | Indesign CC | Illustrator CC
                                         </H42>
                                         <BulletList1>
                                             {'List'}
