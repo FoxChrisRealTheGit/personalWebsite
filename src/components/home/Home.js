@@ -12,7 +12,6 @@ import {
     SquareImage,
     HR,
     Card1,
-    H11,
     A,
 } from "react-stylux";
 
@@ -31,12 +30,12 @@ export default class Home extends Component {
                 <Container
                     direction="column">
                     <Holder
-                        direction='column'>
+                        direction='column'
+                        block1smdis="none">
                         <Hero1
                             image={`url(${aspen})`}
                             height='375px' >
                         </Hero1>
-                        <H11> This is still under construction </H11>
                         <Holder
                             direction='column'>
                             <A width="1200px" to="/about">

@@ -14,7 +14,8 @@ export default class Header extends Component {
         return (
             <Container>
                 <Holder
-                    direction ="column">
+                    direction ="column"
+                    smflexDir="row">
                     <Link to="/">
                         <Brand2
                             size='sm'>
@@ -22,7 +23,11 @@ export default class Header extends Component {
                         </Brand2>
                     </Link>
                     <NavBar1
-                        navbarWidth='60%'>
+                        navbarWidth='60%'
+                        count="3">
+                        <Link to="/">Home</Link>
+                        <Link to="/about">About</Link>
+                        <Link to="/portfolio">Portfolio</Link>
                         <Link to="/">Home</Link>
                         <Link to="/about">About</Link>
                         <Link to="/portfolio">Portfolio</Link>

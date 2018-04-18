@@ -5,8 +5,6 @@ import { Link } from 'react-router-dom';
 import {
     Container,
     Holder,
-    H31,
-    P3,
     Carousel4,
     SubNavBar1,
     H41,
@@ -28,9 +26,9 @@ import jsIcon from "../../images/portfolio/icons/SVG/jsIcon.svg"
 import htmlIcon from "../../images/portfolio/icons/SVG/htmlIcon.svg"
 import sqlIcon from "../../images/portfolio/icons/SVG/sqlIcon.svg"
 
-import reactstyluximg from "../../images/portfolio/webdevelopment/reactStyluxTOC.jpg"
-import peaxgamesimg from "../../images/portfolio/webdevelopment/login.jpg"
-import ataraxyclothingimg from "../../images/portfolio/webdevelopment/AtaraxyClothingHomepage.jpg"
+import reactstyluximg from "../../images/portfolio/webdevelopment/reactStyluxTOC_LG.jpg"
+import peaxgamesimg from "../../images/portfolio/webdevelopment/PeaxLogin_LG.jpg"
+import ataraxyclothingimg from "../../images/portfolio/webdevelopment/AtaraxyClothingHomepage_LG.jpg"
 
 import nightmaresposter from "../../images/portfolio/graphicdesign/1.4_final.svg"
 //
