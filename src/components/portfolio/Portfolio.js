@@ -262,27 +262,7 @@ export default class Portfolio extends Component {
                                 </A>
                                 <HR />
                             </Holder>
-                            <Holder
-                                direction="column"
-                            >
-                            <A width="85%" to="/portfolio/graphicdesign/lanzorettecalender">
-                                <Holder>
-                                    <SquareImage
-                                        size='lg'>
-                                    </SquareImage>
-                                    <Holder
-                                        direction="column">
-                                        <H42 margin="0 0 50px 0">
-                                            Another project
-                                        </H42>
-                                        <BulletList1>
-                                            {'List'}
-                                        </BulletList1>
-                                    </Holder>
-                                </Holder>
-                                </A>
-                                <HR />
-                            </Holder>
+                            
                             <Holder
                                 direction="column"
                             >
@@ -302,6 +282,29 @@ export default class Portfolio extends Component {
                                     </Holder>
                                 </Holder>
                                 </A>
+                                  <HR />
+                            </Holder>
+                            <Holder
+                                direction="column"
+                            >
+                            <A width="85%" to="/portfolio/graphicdesign/lanzorettecalender">
+                                <Holder>
+                                    <SquareImage
+                                        size='lg'>
+                                    </SquareImage>
+                                    <Holder
+                                        direction="column">
+                                        <H42 margin="0 0 50px 0">
+                                            Lanzorette Calender Design | Illustrator CC
+                                        </H42>
+                                        <BulletList1>
+                                            {"Calender Challenge design from John McWade"}
+                                            {"Sketched to finished project in around 30min"}
+                                        </BulletList1>
+                                    </Holder>
+                                </Holder>
+                                </A>
+                              
                             </Holder>
                             <Link to="/portfolio/graphicdesign"><P1>See More Graphic Design...</P1></Link>
                         </Holder>

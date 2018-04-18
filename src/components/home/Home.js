@@ -13,6 +13,7 @@ import {
     HR,
     Card1,
     A,
+    BulletList1,
 } from "react-stylux";
 
 import aspen from '../../images/chrisinaspen.jpg';
@@ -52,13 +53,13 @@ export default class Home extends Component {
                                         {"Placeholder for a designer type image"}
                                         {"Designer"}
                                         {"Currently, I am working on my BA in Graphic Design. I have played around with the creation of various print material, but I am very interested in the UX considerations surrounding web design. VR is also extremely fascinating to me at the present moment."}
-                                   </Card1>
+                                    </Card1>
                                     <Card1>
                                         {card1ComingSoon}
                                         {"Placeholder for a writer type image"}
                                         {"Writer"}
                                         {"I regularly perform spoken word poetry and try to tell stories when I can. I enjoy being in front of people and working with crowds. I have well over 200 pages of various scripts, a few plays being worked on, a completed novel, and a collection of short stories near completion."}
-                                   </Card1>
+                                    </Card1>
                                 </Holder>
                             </A>
                         </Holder>
@@ -84,9 +85,13 @@ export default class Home extends Component {
                                     direction='column'>
 
                                     <Link to="/portfolio">
-                                        <P1>
-                                            Aristos CMS
-                                        </P1>
+                                        <BulletList1>
+                                            {"In initial development stages"}
+                                            {"CMS and Website builder built in Golang"}
+                                            {"All pages set up with HTTPS through Let's Encrypt"}
+                                            {"Multiple encoders and decoders built for many file types"}
+                                            {"Working on full AWS integration"}
+                                        </BulletList1>
                                     </Link>
                                 </Holder>
                             </Holder>
