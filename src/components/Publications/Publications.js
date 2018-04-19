@@ -6,6 +6,7 @@ import {
     Container,
     Holder,
     H31,
+    HR,
 } from 'react-stylux';
 
 export default class Publications extends Component {
@@ -15,11 +16,15 @@ export default class Publications extends Component {
             <section>
                 <Header />
                 <Container>
+                <HR height="300px" />
                     <Holder>
                         <H31>
                             Publications
                         </H31>
+
+                        
                     </Holder>
+                    <HR height="300px" />
                 </Container>
                 <Footer />
             </section>

@@ -8,7 +8,6 @@ import {
     Holder,
     Hero1,
     H32,
-    P1,
     SquareImage,
     HR,
     Card1,
@@ -102,31 +101,31 @@ export default class Home extends Component {
 
                         <Holder
                             direction="column">
-                            <a href="/publications">
+                            <Link to="/publications">
                                 <H32>Publications</H32>
-                            </a>
+                            </Link>
                             <Holder>
-                                <a href="#" className="publicationTag">
+                                <Link to="/publications/alone" className="publicationTag">
                                     <Card1>
                                         {card1ComingSoon}
                                         {"Alone Book Cover"}
                                         Alone
                                         </Card1>
-                                </a>
-                                <a href="#" className="publicationTag">
+                                </Link>
+                                <Link to="/publications/cryptocurrencyhistory" className="publicationTag">
                                     <Card1>
                                         {card1ComingSoon}
                                         {"Crypto-Currency: A History Book Cover"}
                                         Crypto-currency: a history
                                    </Card1>
-                                </a>
-                                <a href="#" className="publicationTag">
+                                </Link>
+                                <Link to="/publications/gendered" className="publicationTag">
                                     <Card1>
                                         {genderedcover}
                                         {"Gendered Book cover"}
 
                                     </Card1>
-                                </a>
+                                </Link>
                             </Holder>
 
                         </Holder>

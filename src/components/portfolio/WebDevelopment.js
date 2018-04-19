@@ -5,7 +5,8 @@ import Footer from '../footer/Footer';
 import {
     Container,
     Holder,
-    H31
+    HR,
+    H31,
 } from 'react-stylux'
 
 export default class WebDevelopment extends Component {
@@ -15,11 +16,16 @@ export default class WebDevelopment extends Component {
             <section>
                 <Header />
                 <Container>
+                <HR height="300px" />
                     <H31>
                         Web Development
                     </H31>
-                    <Holder>
+                    <Holder
+                        direction="column">
+
+
                     </Holder>
+                    <HR height="300px" />
                 </Container>
                 <Footer />
             </section>

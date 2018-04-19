@@ -11,7 +11,7 @@ import {
     P1,
 } from "react-stylux"
 
-export default function reactstyluxView() {
+export default function MagazineCloneCoverViews() {
 
     return (
         <section>
@@ -21,9 +21,11 @@ export default function reactstyluxView() {
             <Holder
                     direction="column">
                 <H31>
-                    react-stylux
+                    Magazine Cover Clones
                 </H31>
-                <Link to="/portfolio/webdevelopment"><P1>Back to Web Development...</P1></Link>
+
+
+                <Link to="/portfolio/graphicdesign"><P1>Back to Graphic Design...</P1></Link>
                 </Holder>
                 <HR height="300px" />
             </Container>

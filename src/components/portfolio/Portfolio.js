@@ -100,7 +100,7 @@ export default class Portfolio extends Component {
                         </H41>
                         <Holder
                             direction="column">
-                            <A width="85%" to="/portfolio/webdevelopment/reactstylux">
+                            <A width="85%" to="/portfolio/webdevelopment/aristos">
                             <Holder
                                 alignBlock1= "flex-start">
                                 <SquareImage

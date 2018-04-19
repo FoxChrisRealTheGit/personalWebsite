@@ -11,7 +11,7 @@ import {
     P1,
 } from "react-stylux"
 
-export default function reactstyluxView() {
+export default function AtaraxyLifeView() {
 
     return (
         <section>
@@ -21,7 +21,7 @@ export default function reactstyluxView() {
             <Holder
                     direction="column">
                 <H31>
-                    react-stylux
+                    Ataraxy Life
                 </H31>
                 <Link to="/portfolio/webdevelopment"><P1>Back to Web Development...</P1></Link>
                 </Holder>

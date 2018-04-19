@@ -11,19 +11,21 @@ import {
     P1,
 } from "react-stylux"
 
-export default function reactstyluxView() {
+export default function IWantedToDieNovelView() {
 
     return (
         <section>
             <Header />
             <Container>
-            <HR height="300px" />
-            <Holder
+                <HR height="300px" />
+                <Holder
                     direction="column">
                 <H31>
-                    react-stylux
+                    I Wanted to Die
                 </H31>
-                <Link to="/portfolio/webdevelopment"><P1>Back to Web Development...</P1></Link>
+
+
+                <Link to="/publications"><P1>Back to Publications...</P1></Link>
                 </Holder>
                 <HR height="300px" />
             </Container>
