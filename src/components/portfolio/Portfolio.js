@@ -6,7 +6,7 @@ import {
     Container,
     Holder,
     Carousel4,
-    SubNavBar1,
+    SubNavbar1,
     H41,
     H42,
     P1,
@@ -87,11 +87,11 @@ export default class Portfolio extends Component {
                             {"The symbol for SQL"}
                             </SquareImage>
                         </Holder>
-                        <SubNavBar1
+                        <SubNavbar1
                             align='center'>
                             <a href="/portfolio#webdevelopment">Web Development/Design</a>
                             <a href="/portfolio#graphicdesign">Graphic Design</a>
-                        </SubNavBar1>
+                        </SubNavbar1>
                         <Carousel4>
                         </Carousel4>
                         <H41 id="webdevelopment" 
@@ -100,14 +100,16 @@ export default class Portfolio extends Component {
                         </H41>
                         <Holder
                             direction="column">
-                            <A width="85%" to="/portfolio/webdevelopment/aristos">
+                            
                             <Holder
                                 alignBlock1= "flex-start">
+                                <A width="85%" to="/portfolio/webdevelopment/aristos">
                                 <SquareImage
                                     size='lg'>
                                     {aristosPoster}
                                     {"The first draft logo for the Aristos Prject"}
-                                </SquareImage>
+                                </SquareImage>  
+                                </A>
                                 <Holder
                                     direction="column">
                                     <H42 margin="0 0 50px 0">
@@ -122,19 +124,21 @@ export default class Portfolio extends Component {
                                     </BulletList1>
                                 </Holder>
                             </Holder>
-                            </A>
+                          
                             <HR />
                         </Holder>
                         <Holder
                             direction="column">
-                            <A width="85%" to="/portfolio/webdevelopment/reactstylux">
+                            
                             <Holder
                                 alignBlock1= "flex-start">
+                                <A width="85%" to="/portfolio/webdevelopment/reactstylux">
                                 <SquareImage
                                     size='lg'>
                                     {reactstyluximg}
                                     {"The Table of Contents on Github for react-stylux"}
-                                </SquareImage>
+                                </SquareImage> 
+                                </A>
                                 <Holder
                                     direction="column">
                                     <H42 margin="0 0 50px 0">
@@ -150,18 +154,20 @@ export default class Portfolio extends Component {
                                     </BulletList1>
                                 </Holder>
                             </Holder>
-                            </A>
+                           
                             <HR />
                         </Holder>
                         <Holder
                             direction="column">
-                            <A width="85%" to="/portfolio/webdevelopment/peaxgames">
+                            
                             <Holder>
+                            <A width="85%" to="/portfolio/webdevelopment/peaxgames">
                                 <SquareImage
                                     size='lg'>
                                     {peaxgamesimg}
                                     {"The landing page for peax games"}
                                 </SquareImage>
+                                </A>
                                 <Holder
                                     direction="column">
                                     <H42 margin="0 0 50px 0">
@@ -177,18 +183,20 @@ export default class Portfolio extends Component {
                                     </BulletList1>
                                 </Holder>
                             </Holder>
-                            </A>
+                            
                             <HR />
                         </Holder>
                         <Holder
                             direction="column">
-                            <A width="85%" to="/portfolio/webdevelopment/ataraxyclothing">
+                            
                             <Holder>
+                            <A width="85%" to="/portfolio/webdevelopment/ataraxyclothing">
                                 <SquareImage
                                     size='lg'>
                                     {ataraxyclothingimg}
                                     {"The homepage for ataraxyClothing"}
-                                </SquareImage>
+                                </SquareImage>  
+                                </A>
                                 <Holder
                                     direction="column">
                                     <H42 margin="0 0 50px 0">
@@ -204,7 +212,7 @@ export default class Portfolio extends Component {
                                     </BulletList1>
                                 </Holder>
                             </Holder>
-                            </A>
+                          
                             
                         </Holder>
                         <Link to="/portfolio/webdevelopment"><P1>See More Web Development...</P1></Link>
@@ -218,13 +226,15 @@ export default class Portfolio extends Component {
                             </H41>
                             <Holder
                                 direction="column">
-                                <A width="85%" to="/portfolio/graphicdesign/nightmaresposter">
+                                
                                 <Holder>
+                                <A width="85%" to="/portfolio/graphicdesign/nightmaresposter">
                                     <SquareImage
                                         size='lg'>
                                         {nightmaresposter}
                                         {"Play poster"}
-                                    </SquareImage>
+                                    </SquareImage> 
+                                    </A>
                                     <Holder
                                         direction="column">
                                         <H42 margin="0 0 50px 0">
@@ -236,7 +246,7 @@ export default class Portfolio extends Component {
                                     </BulletList1>
                                     </Holder>
                                 </Holder>
-                                </A>
+                               
                                 <HR />
                             </Holder>
                             <Holder

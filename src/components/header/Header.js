@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {
     Container,
     Holder,
-    NavBar1,
+    Navbar1,
     Brand2,
 } from 'react-stylux';
 
@@ -22,7 +22,7 @@ export default class Header extends Component {
                         {tail}
                         </Brand2>
                     </Link>
-                    <NavBar1
+                    <Navbar1
                         navbarWidth='60%'
                         count="3">
                         <Link to="/">Home</Link>
@@ -31,7 +31,7 @@ export default class Header extends Component {
                         <Link to="/">Home</Link>
                         <Link to="/about">About</Link>
                         <Link to="/portfolio">Portfolio</Link>
-                    </NavBar1>
+                    </Navbar1>
                 </Holder>
             </Container>
         )
