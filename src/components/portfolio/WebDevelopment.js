@@ -44,6 +44,52 @@ export default class WebDevelopment extends Component {
                             <Link to="/portfolio/webdevelopment">1</Link>
                             <Link to="/portfolio/webdevelopment">&raquo;</Link>
                         </Holder>
+                        <Holder
+                        direction="column">
+                        <A width="85%" to="/portfolio/webdevelopment/breakpointpublishing">
+                            <Holder
+                                alignBlock1="flex-start">
+                                <SquareImage
+                                    size='lg'>
+                                    {}
+                                    {"The homepage for Breakpoint Publishing"}
+                                </SquareImage>
+                                <Holder
+                                    direction="column">
+                                    <H42 margin="0 0 50px 0">
+                                        Breakpoint Publishing | React 
+                                    </H42>
+                                    <BulletList1>
+                                        {"Just starting"}
+                                    </BulletList1>
+                                </Holder>
+                            </Holder>
+                        </A>
+                        <HR />
+                    </Holder>
+                    <Holder
+                        direction="column">
+                        <A width="85%" to="/portfolio/webdevelopment/ataraxylife-nonprofit">
+                            <Holder
+                                alignBlock1="flex-start">
+                                <SquareImage
+                                    size='lg'>
+                                    {}
+                                    {"The homepage for ataraxy life non profit"}
+                                </SquareImage>
+                                <Holder
+                                    direction="column">
+                                    <H42 margin="0 0 50px 0">
+                                        Ataraxy Life | React
+                                    </H42>
+                                    <BulletList1>
+                                        {"Non-Profit for Suicide prevention and happiness advocation"}
+                                    </BulletList1>
+                                </Holder>
+                            </Holder>
+                        </A>
+                        <HR />
+                    </Holder>
                         <A width="85%" to="/portfolio/webdevelopment/aristos">
                             <Holder
                                 alignBlock1="flex-start">

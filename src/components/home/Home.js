@@ -19,7 +19,6 @@ import aspen from '../../images/chrisinaspen.jpg';
 
 import genderedcover from "../../images/publications/BookCoverTwo.jpg"
 import card1ComingSoon from "../../images/placeholders/card1ComingSoon.jpg";
-import aristosPlaceholder from "../../images/placeholders/aristosPlaceholder.jpg";
 
 export default class Home extends Component {
     render() {
@@ -77,19 +76,15 @@ export default class Home extends Component {
                                 <Link to="/portfolio">
                                     <SquareImage
                                         size="lg">
-                                        {aristosPlaceholder}
+                                        {}
                                     </SquareImage>
                                 </Link>
                                 <Holder
                                     direction='column'>
 
-                                    <Link to="/portfolio">
+                                    <Link to="/portfolio/webdevelopment/ataraxylife-nonprofit">
                                         <BulletList1>
-                                            {"In initial development stages"}
-                                            {"CMS and Website builder built in Golang"}
-                                            {"All pages set up with HTTPS through Let's Encrypt"}
-                                            {"Multiple encoders and decoders built for many file types"}
-                                            {"Working on full AWS integration"}
+                                            {"Non-Profit for Suicide Prevention and happiness advocation"}
                                         </BulletList1>
                                     </Link>
                                 </Holder>

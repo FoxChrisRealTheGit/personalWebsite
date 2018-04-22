@@ -15,8 +15,6 @@ import {
     H42,
 } from "react-stylux"
 
-import FoxxyHats from "../../../images/portfolio/webdevelopment/FoxxyHats.jpg";
-
 export default function FoxxyHatsView() {
 
     return (
@@ -27,28 +25,24 @@ export default function FoxxyHatsView() {
                 <Holder
                     direction="column">
                     <H31>
-                        Foxxy Hats
-                </H31>
+                        Ataraxy Life
+                    </H31>
                     <Holder
                         direction="column">
                         <A width="85%" to="/portfolio/webdevelopment/foxxyhats">
                             <Holder>
                                 <SquareImage
                                     size='lg'>
-                                    {FoxxyHats}
-                                    {"The homepage for Foxxy Hats"}
+                                    {}
+                                    {"The homepage for the new Ataraxy Life"}
                                 </SquareImage>
                                 <Holder
                                     direction="column">
                                     <H42 margin="0 0 50px 0">
-                                        Foxxy Hats | Wordpress | WooCommerce
+                                        Ataraxy Life | React
                                     </H42>
                                     <BulletList1>
-                                        {"Not active"}
-                                        {"Worked on seriously from 2015 - 2016"}
-                                        {"Initially started in 2014"}
-                                        {"Learned a lot about how to run a business"}
-                                        {"Leanred even more about Webdesign and Ecommerce"}
+                                        {"Just starting"}
 
                                     </BulletList1>
                                 </Holder>

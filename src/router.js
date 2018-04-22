@@ -7,6 +7,8 @@ import Portfolio from './components/portfolio/Portfolio';
 import FullStory from './components/about/FullStory';
 
 import WebDevelopment from './components/portfolio/WebDevelopment';
+import BreakpointPublishing from "./components/portfolio/WebDevelopment/breakpoinpublishing";
+import ataraxylifenon from "./components/portfolio/WebDevelopment/ataraxylifenonprofit";
 import ataraxyclothing from "./components/portfolio/WebDevelopment/ataraxyclothing";
 import peaxgames from "./components/portfolio/WebDevelopment/peaxgames";
 import reactstylux from "./components/portfolio/WebDevelopment/reactstylux";
@@ -39,6 +41,8 @@ export default (
         <Route exact path="/portfolio" component={Portfolio}></Route>
 
         <Route exact path="/portfolio/webdevelopment" component={WebDevelopment}></Route>
+        <Route path="/portfolio/webdevelopment/breakpointpublishing" component={BreakpointPublishing}></Route>
+        <Route path="/portfolio/webdevelopment/ataraxylife-nonprofit" component={ataraxylifenon}></Route>
         <Route path="/portfolio/webdevelopment/ataraxyclothing" component={ataraxyclothing}></Route>
         <Route path="/portfolio/webdevelopment/peaxgames" component={peaxgames}></Route>
         <Route path="/portfolio/webdevelopment/reactstylux" component={reactstylux}></Route>
