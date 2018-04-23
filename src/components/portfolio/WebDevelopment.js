@@ -16,6 +16,8 @@ import {
     H42,
 } from 'react-stylux'
 
+
+import AtaraxyLifeNonprofit from "../../images/portfolio/webdevelopment/AtaraxyLifeNonProfitBeliefs.jpg";
 import aristosPoster from "../../images/placeholders/aristosPlaceholder.jpg"
 import reactstyluximg from "../../images/portfolio/webdevelopment/reactStyluxTOC_LG.jpg"
 import peaxgamesimg from "../../images/portfolio/webdevelopment/PeaxLogin_LG.jpg"
@@ -74,7 +76,7 @@ export default class WebDevelopment extends Component {
                                 alignBlock1="flex-start">
                                 <SquareImage
                                     size='lg'>
-                                    {}
+                                    {AtaraxyLifeNonprofit}
                                     {"The homepage for ataraxy life non profit"}
                                 </SquareImage>
                                 <Holder

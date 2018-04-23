@@ -24,7 +24,7 @@ export default class Footer extends Component {
                         <a href="https://github.com/FoxChrisRealTheGit" target="_blank" rel="noopener noreferrer"></a>
                         <a href="https://linkedin.com/in/foxchrisrealthe"target="_blank" rel="noopener noreferrer"></a>
                     </Navbar1>
-                    <P2>Copyright &copy; 2018 - All Rights Reserved FoxChrisRealThe- Websit Design by: <a href="https://FoxDesignAgency.com" target="_blank" rel="noopener noreferrer">Fox Design Agency</a></P2>
+                    <P2>Copyright &copy; 2018 - All Rights Reserved FoxChrisRealThe- Website Design by: <a href="https://FoxDesignAgency.com" target="_blank" rel="noopener noreferrer">Fox Design Agency</a></P2>
                 </Holder>
             </Container>
         )

@@ -15,6 +15,8 @@ import {
     H42,
 } from "react-stylux"
 
+import AtaraxyLife from "../../../images/portfolio/webdevelopment/AtaraxyLifeNonProfitBeliefs.jpg";
+
 export default function FoxxyHatsView() {
 
     return (
@@ -33,7 +35,7 @@ export default function FoxxyHatsView() {
                             <Holder>
                                 <SquareImage
                                     size='lg'>
-                                    {}
+                                    {AtaraxyLife}
                                     {"The homepage for the new Ataraxy Life"}
                                 </SquareImage>
                                 <Holder

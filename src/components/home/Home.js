@@ -19,6 +19,10 @@ import aspen from '../../images/chrisinaspen.jpg';
 
 import genderedcover from "../../images/publications/BookCoverTwo.jpg"
 import card1ComingSoon from "../../images/placeholders/card1ComingSoon.jpg";
+import Developer from "../../images/placeholders/DeveloperCodeImage.jpg";
+import Designer from "../../images/placeholders/DesignerImage.jpg";
+import Writer from "../../images/placeholders/WriterImage.jpg";
+import AtaraxyLife from "../../images/portfolio/webdevelopment/AtaraxyLifeNonProfitBeliefs.jpg";
 
 export default class Home extends Component {
     render() {
@@ -40,20 +44,20 @@ export default class Home extends Component {
                             <A width="1200px" to="/about">
                                 <Holder>
                                     <Card1>
-                                        {card1ComingSoon}
+                                        {Developer}
                                         {"Placeholder for a developer type image"}
                                         {"Developer"}
                                         {"I am a very self-motivated web developer with knowledge of Golang, ReactJs, Javascript, HTML, CSS, RESTful, Express, and NodeJS. Currently, I am exploring various computer science topics and data structure solutions. Kali Linux also has my interest."}
 
                                     </Card1>
                                     <Card1>
-                                        {card1ComingSoon}
+                                        {Designer}
                                         {"Placeholder for a designer type image"}
                                         {"Designer"}
                                         {"Currently, I am working on my BA in Graphic Design. I have played around with the creation of various print material, but I am very interested in the UX considerations surrounding web design. VR is also extremely fascinating to me at the present moment."}
                                     </Card1>
                                     <Card1>
-                                        {card1ComingSoon}
+                                        {Writer}
                                         {"Placeholder for a writer type image"}
                                         {"Writer"}
                                         {"I regularly perform spoken word poetry and try to tell stories when I can. I enjoy being in front of people and working with crowds. I have well over 200 pages of various scripts, a few plays being worked on, a completed novel, and a collection of short stories near completion."}
@@ -76,7 +80,7 @@ export default class Home extends Component {
                                 <Link to="/portfolio">
                                     <SquareImage
                                         size="lg">
-                                        {}
+                                        {AtaraxyLife}
                                     </SquareImage>
                                 </Link>
                                 <Holder
