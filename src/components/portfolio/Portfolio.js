@@ -31,10 +31,10 @@ import reactstyluximg from "../../images/portfolio/webdevelopment/reactStyluxTOC
 import peaxgamesimg from "../../images/portfolio/webdevelopment/PeaxLogin_LG.jpg"
 import ataraxyclothingimg from "../../images/portfolio/webdevelopment/AtaraxyClothingHomepage_LG.jpg"
 
-import nightmaresposter from "../../images/portfolio/graphicdesign/1.4_final.svg"
-//
-//
-//
+import nightmaresposter from "../../images/portfolio/graphicdesign/nightmaresPoster.jpg"
+import finalRestarauntProject from "../../images/portfolio/graphicdesign/FinalRestarauntProject.jpg";
+import LanzaroteCalenderDesign from "../../images/portfolio/graphicdesign/LanzaroteCalenderDesign.jpg";
+import MagazineCoverClones from "../../images/portfolio/graphicdesign/MagazineCoverClones.jpg"
 //
 
 export default class Portfolio extends Component {
@@ -55,36 +55,36 @@ export default class Portfolio extends Component {
                         </Holder>
                         <Holder margin="50px 0 50px 0">
                             <SquareImage>
-                            {psIcon}
-                            {"The logo for adobe photoshop cc"}
+                                {psIcon}
+                                {"The logo for adobe photoshop cc"}
                             </SquareImage>
                             <SquareImage>
-                            {aiIcon}
-                            {"The logo for adobe illustrator cc"}
+                                {aiIcon}
+                                {"The logo for adobe illustrator cc"}
                             </SquareImage>
                             <SquareImage>
-                            {cssIcon}
-                            {"The symbol for css"}
+                                {cssIcon}
+                                {"The symbol for css"}
                             </SquareImage>
                             <SquareImage>
-                            {reactIcon}
-                            {"The logo for React.js"}
+                                {reactIcon}
+                                {"The logo for React.js"}
                             </SquareImage>
                             <SquareImage>
-                            {GoIcon}
-                            {"The icon for Go lang"}
+                                {GoIcon}
+                                {"The icon for Go lang"}
                             </SquareImage>
                             <SquareImage>
-                            {jsIcon}
-                            {"The symbol for javascript"}
+                                {jsIcon}
+                                {"The symbol for javascript"}
                             </SquareImage>
                             <SquareImage>
-                            {htmlIcon}
-                            {"The symbol for html 5"}
+                                {htmlIcon}
+                                {"The symbol for html 5"}
                             </SquareImage>
                             <SquareImage>
-                            {sqlIcon}
-                            {"The symbol for SQL"}
+                                {sqlIcon}
+                                {"The symbol for SQL"}
                             </SquareImage>
                         </Holder>
                         <SubNavbar1
@@ -93,22 +93,55 @@ export default class Portfolio extends Component {
                             <a href="/portfolio#graphicdesign">Graphic Design</a>
                         </SubNavbar1>
                         <Carousel4>
+                            <SquareImage
+                                size="md">
+                                {ataraxyclothingimg}
+                            </SquareImage>
+                            <SquareImage
+                                size="md">
+                                {nightmaresposter}
+                            </SquareImage>
+                            <SquareImage
+                                size="md">
+                                {finalRestarauntProject}
+                            </SquareImage>
+                            <SquareImage
+                                size="md">
+                                {MagazineCoverClones}
+                            </SquareImage>
+
+                            <SquareImage
+                                size="md">
+                                {reactstyluximg}
+                            </SquareImage>
+                            <SquareImage
+                                size="md">
+                                {peaxgamesimg}
+                            </SquareImage>
+                            <SquareImage
+                                size="md">
+                                {aristosPoster}
+                            </SquareImage>
+                            <SquareImage
+                                size="md">
+                                {LanzaroteCalenderDesign}
+                            </SquareImage>
                         </Carousel4>
-                        <H41 id="webdevelopment" 
+                        <H41 id="webdevelopment"
                             margin="100px 0 20px 0">
                             Web Development/Design
                         </H41>
                         <Holder
                             direction="column">
-                            
+
                             <Holder
-                                alignBlock1= "flex-start">
+                                alignBlock1="flex-start">
                                 <A width="85%" to="/portfolio/webdevelopment/aristos">
-                                <SquareImage
-                                    size='lg'>
-                                    {aristosPoster}
-                                    {"The first draft logo for the Aristos Prject"}
-                                </SquareImage>  
+                                    <SquareImage
+                                        size='lg'>
+                                        {aristosPoster}
+                                        {"The first draft logo for the Aristos Prject"}
+                                    </SquareImage>
                                 </A>
                                 <Holder
                                     direction="column">
@@ -124,20 +157,20 @@ export default class Portfolio extends Component {
                                     </BulletList1>
                                 </Holder>
                             </Holder>
-                          
+
                             <HR />
                         </Holder>
                         <Holder
                             direction="column">
-                            
+
                             <Holder
-                                alignBlock1= "flex-start">
+                                alignBlock1="flex-start">
                                 <A width="85%" to="/portfolio/webdevelopment/reactstylux">
-                                <SquareImage
-                                    size='lg'>
-                                    {reactstyluximg}
-                                    {"The Table of Contents on Github for react-stylux"}
-                                </SquareImage> 
+                                    <SquareImage
+                                        size='lg'>
+                                        {reactstyluximg}
+                                        {"The Table of Contents on Github for react-stylux"}
+                                    </SquareImage>
                                 </A>
                                 <Holder
                                     direction="column">
@@ -154,19 +187,19 @@ export default class Portfolio extends Component {
                                     </BulletList1>
                                 </Holder>
                             </Holder>
-                           
+
                             <HR />
                         </Holder>
                         <Holder
                             direction="column">
-                            
+
                             <Holder>
-                            <A width="85%" to="/portfolio/webdevelopment/peaxgames">
-                                <SquareImage
-                                    size='lg'>
-                                    {peaxgamesimg}
-                                    {"The landing page for peax games"}
-                                </SquareImage>
+                                <A width="85%" to="/portfolio/webdevelopment/peaxgames">
+                                    <SquareImage
+                                        size='lg'>
+                                        {peaxgamesimg}
+                                        {"The landing page for peax games"}
+                                    </SquareImage>
                                 </A>
                                 <Holder
                                     direction="column">
@@ -183,19 +216,19 @@ export default class Portfolio extends Component {
                                     </BulletList1>
                                 </Holder>
                             </Holder>
-                            
+
                             <HR />
                         </Holder>
                         <Holder
                             direction="column">
-                            
+
                             <Holder>
-                            <A width="85%" to="/portfolio/webdevelopment/ataraxyclothing">
-                                <SquareImage
-                                    size='lg'>
-                                    {ataraxyclothingimg}
-                                    {"The homepage for ataraxyClothing"}
-                                </SquareImage>  
+                                <A width="85%" to="/portfolio/webdevelopment/ataraxyclothing">
+                                    <SquareImage
+                                        size='lg'>
+                                        {ataraxyclothingimg}
+                                        {"The homepage for ataraxyClothing"}
+                                    </SquareImage>
                                 </A>
                                 <Holder
                                     direction="column">
@@ -212,8 +245,8 @@ export default class Portfolio extends Component {
                                     </BulletList1>
                                 </Holder>
                             </Holder>
-                          
-                            
+
+
                         </Holder>
                         <Link to="/portfolio/webdevelopment"><P1>See More Web Development...</P1></Link>
                         <HR height="300px" />
@@ -226,14 +259,14 @@ export default class Portfolio extends Component {
                             </H41>
                             <Holder
                                 direction="column">
-                                
+
                                 <Holder>
-                                <A width="85%" to="/portfolio/graphicdesign/nightmaresposter">
-                                    <SquareImage
-                                        size='lg'>
-                                        {nightmaresposter}
-                                        {"Play poster"}
-                                    </SquareImage> 
+                                    <A width="85%" to="/portfolio/graphicdesign/nightmaresposter">
+                                        <SquareImage
+                                            size='lg'>
+                                            {nightmaresposter}
+                                            {"Play poster"}
+                                        </SquareImage>
                                     </A>
                                     <Holder
                                         direction="column">
@@ -241,80 +274,83 @@ export default class Portfolio extends Component {
                                             Play poster | Illustrator CC | Photoshop CC
                                         </H42>
                                         <BulletList1>
-                                        {"Project for a friend's play"}
-                                        {"Play was housed April 14th 2018"}
-                                    </BulletList1>
+                                            {"Project for a friend's play"}
+                                            {"Play was housed April 14th 2018"}
+                                        </BulletList1>
                                     </Holder>
                                 </Holder>
-                               
+
                                 <HR />
                             </Holder>
                             <Holder
                                 direction="column"
                             >
-                            <A width="85%" to="/portfolio/graphicdesign/restarauntproject">
-                                <Holder>
-                                    <SquareImage
-                                        size='lg'>
-                                    </SquareImage>
-                                    <Holder
-                                        direction="column">
-                                        <H42 margin="0 0 50px 0">
-                                            Final Restaraunt project | InDesign CC | Illustrator CC
+                                <A width="85%" to="/portfolio/graphicdesign/restarauntproject">
+                                    <Holder>
+                                        <SquareImage
+                                            size='lg'>
+                                            {finalRestarauntProject}
+                                        </SquareImage>
+                                        <Holder
+                                            direction="column">
+                                            <H42 margin="0 0 50px 0">
+                                                Final Restaraunt project | InDesign CC | Illustrator CC
                                         </H42>
-                                        <BulletList1>
-                                            {'Menu'}
-                                            {'Brochure'}
-                                            {'Table Tent'}
-                                        </BulletList1>
+                                            <BulletList1>
+                                                {'Menu'}
+                                                {'Brochure'}
+                                                {'Table Tent'}
+                                            </BulletList1>
+                                        </Holder>
                                     </Holder>
-                                </Holder>
                                 </A>
                                 <HR />
                             </Holder>
-                            
+
                             <Holder
                                 direction="column"
                             >
-                            <A width="85%" to="/portfolio/graphicdesign/grooperlogo">
-                                <Holder>
-                                    <SquareImage
-                                        size='lg'>
-                                    </SquareImage>
-                                    <Holder
-                                        direction="column">
-                                        <H42 margin="0 0 50px 0">
-                                            Magazine Cover Clones | Indesign CC | Illustrator CC
+                                <A width="85%" to="/portfolio/graphicdesign/magazineclonecovers">
+                                    <Holder>
+                                        <SquareImage
+                                            size='lg'>
+                                            {MagazineCoverClones}
+                                        </SquareImage>
+                                        <Holder
+                                            direction="column">
+                                            <H42 margin="0 0 50px 0">
+                                                Magazine Cover Clones | Indesign CC | Illustrator CC
                                         </H42>
-                                        <BulletList1>
-                                            {'List'}
-                                        </BulletList1>
+                                            <BulletList1>
+                                                {'List'}
+                                            </BulletList1>
+                                        </Holder>
                                     </Holder>
-                                </Holder>
                                 </A>
-                                  <HR />
+                                <HR />
                             </Holder>
                             <Holder
                                 direction="column"
                             >
-                            <A width="85%" to="/portfolio/graphicdesign/lanzorettecalender">
-                                <Holder>
-                                    <SquareImage
-                                        size='lg'>
-                                    </SquareImage>
-                                    <Holder
-                                        direction="column">
-                                        <H42 margin="0 0 50px 0">
-                                            Lanzorette Calender Design | Illustrator CC
+                                <A width="85%" to="/portfolio/graphicdesign/lanzorettecalender">
+                                    <Holder>
+                                        <SquareImage
+                                            size='lg'>
+                                            {LanzaroteCalenderDesign}
+                                        </SquareImage>
+                                        <Holder
+                                            direction="column">
+                                            <H42 margin="0 0 50px 0">
+                                                Lanzorette Calender Design | Illustrator CC
                                         </H42>
-                                        <BulletList1>
-                                            {"Calender Challenge design from John McWade"}
-                                            {"Sketched to finished project in around 30min"}
-                                        </BulletList1>
+                                            <BulletList1>
+                                                {"Calender Challenge design from John McWade"}
+                                                {"Sketched to finished project in around 30min"}
+                                            </BulletList1>
+                                        </Holder>
                                     </Holder>
-                                </Holder>
                                 </A>
-                              
+
                             </Holder>
                             <Link to="/portfolio/graphicdesign"><P1>See More Graphic Design...</P1></Link>
                         </Holder>
