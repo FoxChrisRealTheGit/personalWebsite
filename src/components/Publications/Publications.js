@@ -12,6 +12,8 @@ import {
     SquareImage,
     BulletList1,
 } from 'react-stylux';
+import Gendered from "../../images/publications/BookCoverTwo.jpg";
+import ComingSoon from "../../images/placeholders/ComingSoon500Square.jpg";
 
 export default class Publications extends Component {
 
@@ -38,7 +40,7 @@ export default class Publications extends Component {
                                         alignBlock1="flex-start">
                                         <SquareImage
                                             size='lg'>
-                                            {}
+                                            {ComingSoon}
                                             {"The cover for Alone"}
                                         </SquareImage>
                                         <Holder
@@ -47,7 +49,7 @@ export default class Publications extends Component {
                                                 Alone
                                             </H42>
                                             <BulletList1>
-                                                {"Just starting"}
+                                                {"Current word count: "}
                                             </BulletList1>
                                         </Holder>
                                     </Holder>
@@ -64,7 +66,7 @@ export default class Publications extends Component {
                                         alignBlock1="flex-start">
                                         <SquareImage
                                             size='lg'>
-                                            {}
+                                            {Gendered}
                                             {"The cover for Gendered"}
                                         </SquareImage>
                                         <Holder
@@ -73,7 +75,7 @@ export default class Publications extends Component {
                                                 Gendered
                                             </H42>
                                             <BulletList1>
-                                                {"Just starting"}
+                                                {"Current word count: 49,558"}
                                             </BulletList1>
                                         </Holder>
                                     </Holder>
@@ -94,7 +96,7 @@ export default class Publications extends Component {
                                         alignBlock1="flex-start">
                                         <SquareImage
                                             size='lg'>
-                                            {}
+                                            {ComingSoon}
                                             {"The cover for I Wanted to Die"}
                                         </SquareImage>
                                         <Holder
@@ -103,7 +105,7 @@ export default class Publications extends Component {
                                                 I Wanted to Die
                                         </H42>
                                             <BulletList1>
-                                                {"Just starting"}
+                                                {"Current word count: 83"}
                                             </BulletList1>
                                         </Holder>
                                     </Holder>
@@ -120,8 +122,8 @@ export default class Publications extends Component {
                                         alignBlock1="flex-start">
                                         <SquareImage
                                             size='lg'>
-                                            {}
-                                            {"The cover for I Wanted to Die"}
+                                            {ComingSoon}
+                                            {"The cover for CryptoCurrency: A History"}
                                         </SquareImage>
                                         <Holder
                                             direction="column">
@@ -129,7 +131,7 @@ export default class Publications extends Component {
                                                 CryptoCurrency: A History
                                         </H42>
                                             <BulletList1>
-                                                {"Just starting"}
+                                                {"Current word count: 23,029"}
                                             </BulletList1>
                                         </Holder>
                                     </Holder>
@@ -150,7 +152,7 @@ export default class Publications extends Component {
                                         alignBlock1="flex-start">
                                         <SquareImage
                                             size='lg'>
-                                            {}
+                                            {ComingSoon}
                                             {"The cover for Under The Apple Tree"}
                                         </SquareImage>
                                         <Holder
@@ -159,7 +161,7 @@ export default class Publications extends Component {
                                                 Under the Apple Tree
                                             </H42>
                                             <BulletList1>
-                                                {"Just starting"}
+                                                {"Current word count: 24,620"}
                                             </BulletList1>
                                         </Holder>
                                     </Holder>
@@ -180,7 +182,7 @@ export default class Publications extends Component {
                                         alignBlock1="flex-start">
                                         <SquareImage
                                             size='lg'>
-                                            {}
+                                            {ComingSoon}
                                             {"The cover for Poetry Collection I"}
                                         </SquareImage>
                                         <Holder
@@ -189,7 +191,7 @@ export default class Publications extends Component {
                                                 Poetry Collection I
                                             </H42>
                                             <BulletList1>
-                                                {"Just starting"}
+                                                {"Current word count: "}
                                             </BulletList1>
                                         </Holder>
                                     </Holder>
@@ -210,7 +212,7 @@ export default class Publications extends Component {
                                         alignBlock1="flex-start">
                                         <SquareImage
                                             size='lg'>
-                                            {}
+                                            {ComingSoon}
                                             {"The cover for Melanine and Joanne"}
                                         </SquareImage>
                                         <Holder
@@ -219,7 +221,7 @@ export default class Publications extends Component {
                                                 Melanine and Joanne
                                             </H42>
                                             <BulletList1>
-                                                {"Just starting"}
+                                                {"Current word count: "}
                                             </BulletList1>
                                         </Holder>
                                     </Holder>
@@ -240,7 +242,7 @@ export default class Publications extends Component {
                                         alignBlock1="flex-start">
                                         <SquareImage
                                             size='lg'>
-                                            {}
+                                            {ComingSoon}
                                             {"An Image from Dad and Other Dad"}
                                         </SquareImage>
                                         <Holder
@@ -249,7 +251,38 @@ export default class Publications extends Component {
                                                 Dad and Other Dad
                                             </H42>
                                             <BulletList1>
-                                                {"Just starting"}
+                                                {"Current word count: "}
+                                                {"Seasons: 1"}
+                                                {"Episodes: 10"}
+                                            </BulletList1>
+                                        </Holder>
+                                    </Holder>
+                                </A>
+
+                            </Holder>
+                            <HR />
+                        </Holder>
+                        <Holder
+                            direction="column">
+                            <Holder
+                                direction="column">
+                                <A width="85%" to="">
+                                    <Holder
+                                        alignBlock1="flex-start">
+                                        <SquareImage
+                                            size='lg'>
+                                            {ComingSoon}
+                                            {"An Image from Roommates"}
+                                        </SquareImage>
+                                        <Holder
+                                            direction="column">
+                                            <H42 margin="0 0 50px 0">
+                                                Roommates
+                                            </H42>
+                                            <BulletList1>
+                                                {"Current word count: "}
+                                                {"Seasons: 1"}
+                                                {"Episodes: 10"}
                                             </BulletList1>
                                         </Holder>
                                     </Holder>

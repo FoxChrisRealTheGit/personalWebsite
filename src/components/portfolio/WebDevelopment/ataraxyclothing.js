@@ -47,7 +47,6 @@ export default function AtaraxyClothingView() {
                                         {"Won most technical award during personal project presentations"}
                                         {"Designed a component library (react-stylux) to build this project"}
                                         {"This is a full-stack application with complete stripe integration"}
-                                        {"Currently rewritting the backend with Golang"}
                                         <a href="https://github.com/FoxChrisRealTheGit/AtaraxyClothing" rel="noopener noreferrer" target="_blank">Ataraxy Clothing Github</a>
                                         <a href="https://ataraxyclothing.com/" rel="noopener noreferrer" target="_blank">Ataraxy Clothing website</a>
                                     </BulletList1>

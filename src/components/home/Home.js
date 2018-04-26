@@ -104,21 +104,21 @@ export default class Home extends Component {
                                 <H32>Publications</H32>
                             </Link>
                             <Holder>
-                                <Link to="/publications/alone" className="publicationTag">
+                                <Link to="/publications" className="publicationTag">
                                     <Card1>
                                         {card1ComingSoon}
                                         {"Alone Book Cover"}
                                         Alone
                                         </Card1>
                                 </Link>
-                                <Link to="/publications/cryptocurrencyhistory" className="publicationTag">
+                                <Link to="/publications" className="publicationTag">
                                     <Card1>
                                         {card1ComingSoon}
                                         {"Crypto-Currency: A History Book Cover"}
                                         Crypto-currency: a history
                                    </Card1>
                                 </Link>
-                                <Link to="/publications/gendered" className="publicationTag">
+                                <Link to="/publications" className="publicationTag">
                                     <Card1>
                                         {genderedcover}
                                         {"Gendered Book cover"}
