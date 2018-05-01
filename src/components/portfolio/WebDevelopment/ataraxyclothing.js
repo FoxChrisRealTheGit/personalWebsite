@@ -12,7 +12,7 @@ import {
     A,
     BulletList1,
     H42,
-    SquareImage,
+    Image,
 } from "react-stylux"
 
 import ataraxyclothingimg from "../../../images/portfolio/webdevelopment/AtaraxyClothingHomepage_LG.jpg";
@@ -33,11 +33,12 @@ export default function AtaraxyClothingView() {
                         direction="column">
                         <A width="85%" to="/portfolio/webdevelopment/ataraxyclothing">
                             <Holder>
-                                <SquareImage
+                                <Image
+                                    type="square"
                                     size='lg'>
                                     {ataraxyclothingimg}
                                     {"The homepage for ataraxyClothing"}
-                                </SquareImage>
+                                </Image>
                                 <Holder
                                     direction="column">
                                     <H42 margin="0 0 50px 0">

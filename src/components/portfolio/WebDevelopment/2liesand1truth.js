@@ -10,7 +10,7 @@ import {
     H31,
     P1,
     A,
-    SquareImage,
+    Image,
     H42,
     BulletList1,
 } from "react-stylux"
@@ -33,11 +33,12 @@ export default function twoliesandonetruthView() {
                 direction="column">
                 <A width="85%" to="/portfolio/webdevelopment/twoliesandonetruth">
                     <Holder>
-                        <SquareImage
+                        <Image
+                            type="square"
                             size='lg'>
                             {twoLiesMark1}
                             {"The homepage for 2 lies and 1 truth"}
-                        </SquareImage>
+                        </Image>
                         <Holder
                             direction="column">
                             <H42 margin="0 0 50px 0">

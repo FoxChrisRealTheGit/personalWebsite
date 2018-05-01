@@ -12,7 +12,7 @@ import {
     H31,
     A,
     BulletList1,
-    SquareImage,
+    Image,
     H42,
 } from 'react-stylux'
 
@@ -51,11 +51,12 @@ export default class WebDevelopment extends Component {
                         <A width="85%" to="/portfolio/webdevelopment/breakpointpublishing">
                             <Holder
                                 alignBlock1="flex-start">
-                                <SquareImage
+                                <Image
+                                type="square"
                                     size='lg'>
                                     {}
                                     {"The homepage for Breakpoint Publishing"}
-                                </SquareImage>
+                                </Image>
                                 <Holder
                                     direction="column">
                                     <H42 margin="0 0 50px 0">
@@ -74,11 +75,12 @@ export default class WebDevelopment extends Component {
                         <A width="85%" to="/portfolio/webdevelopment/ataraxylife-nonprofit">
                             <Holder
                                 alignBlock1="flex-start">
-                                <SquareImage
+                                <Image
+                                type="square"
                                     size='lg'>
                                     {AtaraxyLifeNonprofit}
                                     {"The homepage for ataraxy life non profit"}
-                                </SquareImage>
+                                </Image>
                                 <Holder
                                     direction="column">
                                     <H42 margin="0 0 50px 0">
@@ -95,11 +97,12 @@ export default class WebDevelopment extends Component {
                         <A width="85%" to="/portfolio/webdevelopment/aristos">
                             <Holder
                                 alignBlock1="flex-start">
-                                <SquareImage
+                                <Image
+                                type="square"
                                     size='lg'>
                                     {aristosPoster}
                                     {"The first draft logo for the Aristos Prject"}
-                                </SquareImage>
+                                </Image>
                                 <Holder
                                     direction="column">
                                     <H42 margin="0 0 50px 0">
@@ -122,11 +125,12 @@ export default class WebDevelopment extends Component {
                         <A width="85%" to="/portfolio/webdevelopment/reactstylux">
                             <Holder
                                 alignBlock1="flex-start">
-                                <SquareImage
+                                <Image
+                                type="square"
                                     size='lg'>
                                     {reactstyluximg}
                                     {"The Table of Contents on Github for react-stylux"}
-                                </SquareImage>
+                                </Image>
                                 <Holder
                                     direction="column">
                                     <H42 margin="0 0 50px 0">
@@ -149,11 +153,12 @@ export default class WebDevelopment extends Component {
                         direction="column">
                         <A width="85%" to="/portfolio/webdevelopment/peaxgames">
                             <Holder>
-                                <SquareImage
+                                <Image
+                                type="square"
                                     size='lg'>
                                     {peaxgamesimg}
                                     {"The landing page for peax games"}
-                                </SquareImage>
+                                </Image>
                                 <Holder
                                     direction="column">
                                     <H42 margin="0 0 50px 0">
@@ -177,11 +182,12 @@ export default class WebDevelopment extends Component {
                         direction="column">
                         <A width="85%" to="/portfolio/webdevelopment/ataraxyclothing">
                             <Holder>
-                                <SquareImage
+                                <Image
+                                type="square"
                                     size='lg'>
                                     {ataraxyclothingimg}
                                     {"The homepage for ataraxyClothing"}
-                                </SquareImage>
+                                </Image>
                                 <Holder
                                     direction="column">
                                     <H42 margin="0 0 50px 0">
@@ -204,11 +210,12 @@ export default class WebDevelopment extends Component {
                         direction="column">
                         <A width="85%" to="/portfolio/webdevelopment/twoliesandonetruth">
                             <Holder>
-                                <SquareImage
+                                <Image
+                                type="square"
                                     size='lg'>
                                     {twoLiesMark1}
                                     {"The homepage for 2 lies and 1 truth"}
-                                </SquareImage>
+                                </Image>
                                 <Holder
                                     direction="column">
                                     <H42 margin="0 0 50px 0">
@@ -231,11 +238,12 @@ export default class WebDevelopment extends Component {
                         direction="column">
                         <A width="85%" to="/portfolio/webdevelopment/ataraxylife">
                             <Holder>
-                                <SquareImage
+                                <Image
+                                type="square"
                                     size='lg'>
                                     {ataraxyLife}
                                     {"The homepage for Ataraxy Life"}
-                                </SquareImage>
+                                </Image>
                                 <Holder
                                     direction="column">
                                     <H42 margin="0 0 50px 0">
@@ -258,11 +266,12 @@ export default class WebDevelopment extends Component {
                         direction="column">
                         <A width="85%" to="/portfolio/webdevelopment/foxxyhats">
                             <Holder>
-                                <SquareImage
+                                <Image
+                                type="square"
                                     size='lg'>
                                     {FoxxyHats}
                                     {"The homepage for Foxxy Hats"}
-                                </SquareImage>
+                                </Image>
                                 <Holder
                                     direction="column">
                                     <H42 margin="0 0 50px 0">

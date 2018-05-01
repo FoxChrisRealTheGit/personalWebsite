@@ -8,7 +8,7 @@ import {
     Holder,
     Hero1,
     H32,
-    SquareImage,
+    Image,
     HR,
     Card1,
     A,
@@ -78,10 +78,11 @@ export default class Home extends Component {
                             </Link>
                             <Holder>
                                 <Link to="/portfolio">
-                                    <SquareImage
+                                    <Image
+                                        type="square"
                                         size="lg">
                                         {AtaraxyLife}
-                                    </SquareImage>
+                                    </Image>
                                 </Link>
                                 <Holder
                                     direction='column'>

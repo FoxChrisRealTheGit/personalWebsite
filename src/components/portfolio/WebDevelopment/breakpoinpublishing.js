@@ -10,7 +10,7 @@ import {
     H31,
     P1,
     A,
-    SquareImage,
+    Image,
     BulletList1,
     H42,
 } from "react-stylux"
@@ -33,11 +33,12 @@ export default function FoxxyHatsView() {
                         direction="column">
                         <A width="85%" to="/portfolio/webdevelopment/foxxyhats">
                             <Holder>
-                                <SquareImage
+                                <Image
+                                    type="square"
                                     size='lg'>
                                     {}
                                     {"The homepage for BreakPoint Publishing"}
-                                </SquareImage>
+                                </Image>
                                 <Holder
                                     direction="column">
                                     <H42 margin="0 0 50px 0">

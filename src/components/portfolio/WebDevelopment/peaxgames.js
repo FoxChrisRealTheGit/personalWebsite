@@ -10,7 +10,7 @@ import {
     H31,
     P1,
     A,
-    SquareImage,
+    Image,
     H42,
     BulletList1,
 } from "react-stylux"
@@ -33,11 +33,12 @@ export default function PeaxGamesView() {
                         direction="column">
                         <A width="85%" to="/portfolio/webdevelopment/peaxgames">
                             <Holder>
-                                <SquareImage
+                                <Image
+                                    type="square"
                                     size='lg'>
                                     {peaxgamesimg}
                                     {"The landing page for peax games"}
-                                </SquareImage>
+                                </Image>
                                 <Holder
                                     direction="column">
                                     <H42 margin="0 0 50px 0">

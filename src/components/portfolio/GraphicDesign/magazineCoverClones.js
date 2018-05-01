@@ -12,7 +12,7 @@ import {
     A,
     H42,
     BulletList1,
-    SquareImage,
+    Image,
 } from "react-stylux"
 
 import magazineCloneCovers from "../../../images/portfolio/graphicdesign/MagazineCoverClones.jpg";
@@ -34,11 +34,12 @@ export default function MagazineCloneCoverViews() {
                         direction="column">
                         <A width="85%" to="/portfolio/webdevelopment/twoliesandonetruth">
                             <Holder>
-                                <SquareImage
+                                <Image
+                                    type="square"
                                     size='lg'>
                                     {magazineCloneCovers}
                                     {"The homepage for 2 lies and 1 truth"}
-                                </SquareImage>
+                                </Image>
                                 <Holder
                                     direction="column">
                                     <H42 margin="0 0 50px 0">

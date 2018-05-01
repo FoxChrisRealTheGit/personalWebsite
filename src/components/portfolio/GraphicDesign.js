@@ -8,7 +8,7 @@ import {
     H31,
     HR,
     A,
-    SquareImage,
+    Image,
     BulletList1,
     H42,
 } from 'react-stylux'
@@ -37,11 +37,12 @@ export default class GraphicDesign extends Component {
                         
                         <Holder>
                         <A width="85%" to="/portfolio/graphicdesign/nightmaresposter">
-                            <SquareImage
+                            <Image
+                                type="square"
                                 size='lg'>
                                 {nightmaresposter}
                                 {"Play poster"}
-                            </SquareImage> 
+                            </Image> 
                             </A>
                             <Holder
                                 direction="column">
@@ -62,10 +63,11 @@ export default class GraphicDesign extends Component {
                     >
                     <A width="85%" to="/portfolio/graphicdesign/restarauntproject">
                         <Holder>
-                            <SquareImage
+                            <Image
+                            type="square"
                                 size='lg'>
                                 {finalRestarauntProject}
-                            </SquareImage>
+                            </Image>
                             <Holder
                                 direction="column">
                                 <H42 margin="0 0 50px 0">
@@ -87,10 +89,11 @@ export default class GraphicDesign extends Component {
                     >
                     <A width="85%" to="/portfolio/graphicdesign/magazineclonecovers">
                         <Holder>
-                            <SquareImage
+                            <Image
+                            type="square"
                                 size='lg'>
                                 {MagazineCoverClones}
-                            </SquareImage>
+                            </Image>
                             <Holder
                                 direction="column">
                                 <H42 margin="0 0 50px 0">
@@ -109,10 +112,11 @@ export default class GraphicDesign extends Component {
                     >
                     <A width="85%" to="/portfolio/graphicdesign/lanzorettecalender">
                         <Holder>
-                            <SquareImage
+                            <Image
+                            type="square"
                                 size='lg'>
                                 {LanzaroteCalenderDesign}
-                            </SquareImage>
+                            </Image>
                             <Holder
                                 direction="column">
                                 <H42 margin="0 0 50px 0">
