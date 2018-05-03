@@ -10,7 +10,7 @@ import {
     H32,
     Image,
     HR,
-    Card1,
+    Card,
     A,
     BulletList1,
 } from "react-stylux";
@@ -43,25 +43,25 @@ export default class Home extends Component {
                             direction='column'>
                             <A width="1200px" to="/about">
                                 <Holder>
-                                    <Card1>
+                                    <Card>
                                         {Developer}
                                         {"Placeholder for a developer type image"}
                                         {"Developer"}
                                         {"I am a very self-motivated web developer with knowledge of Golang, ReactJs, Javascript, HTML, CSS, RESTful, Express, and NodeJS. Currently, I am exploring various computer science topics and data structure solutions. Kali Linux also has my interest."}
 
-                                    </Card1>
-                                    <Card1>
+                                    </Card>
+                                    <Card>
                                         {Designer}
                                         {"Placeholder for a designer type image"}
                                         {"Designer"}
                                         {"Currently, I am working on my BA in Graphic Design. I have played around with the creation of various print material, but I am very interested in the UX considerations surrounding web design. VR is also extremely fascinating to me at the present moment."}
-                                    </Card1>
-                                    <Card1>
+                                    </Card>
+                                    <Card>
                                         {Writer}
                                         {"Placeholder for a writer type image"}
                                         {"Writer"}
                                         {"I regularly perform spoken word poetry and try to tell stories when I can. I enjoy being in front of people and working with crowds. I have well over 200 pages of various scripts, a few plays being worked on, a completed novel, and a collection of short stories near completion."}
-                                    </Card1>
+                                    </Card>
                                 </Holder>
                             </A>
                         </Holder>
@@ -106,25 +106,25 @@ export default class Home extends Component {
                             </Link>
                             <Holder>
                                 <Link to="/publications" className="publicationTag">
-                                    <Card1>
+                                    <Card>
                                         {card1ComingSoon}
                                         {"Alone Book Cover"}
                                         Alone
-                                        </Card1>
+                                        </Card>
                                 </Link>
                                 <Link to="/publications" className="publicationTag">
-                                    <Card1>
+                                    <Card>
                                         {card1ComingSoon}
                                         {"Crypto-Currency: A History Book Cover"}
                                         Crypto-currency: a history
-                                   </Card1>
+                                   </Card>
                                 </Link>
                                 <Link to="/publications" className="publicationTag">
-                                    <Card1>
+                                    <Card>
                                         {genderedcover}
                                         {"Gendered Book cover"}
 
-                                    </Card1>
+                                    </Card>
                                 </Link>
                             </Holder>
 
