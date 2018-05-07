@@ -1,7 +1,5 @@
 import React from "react"
-import Header from "../../header/Header";
-import Footer from "../../footer/Footer";
-import {Link }from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import {
     Container,
@@ -14,22 +12,18 @@ import {
 export default function IWantedToDieNovelView() {
 
     return (
-        <section>
-            <Header />
-            <Container>
-                <HR height="300px" />
-                <Holder
-                    direction="column">
+        <Container>
+            <HR height="300px" />
+            <Holder
+                direction="column">
                 <H31>
                     I Wanted to Die
                 </H31>
 
 
                 <Link to="/publications"><P1>Back to Publications...</P1></Link>
-                </Holder>
-                <HR height="300px" />
-            </Container>
-            <Footer />
-        </section>
+            </Holder>
+            <HR height="300px" />
+        </Container>
     )
 }

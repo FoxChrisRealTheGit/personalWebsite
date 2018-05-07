@@ -1,6 +1,4 @@
 import React from "react"
-import Header from "../../header/Header";
-import Footer from "../../footer/Footer";
 import {Link }from "react-router-dom";
 
 import {
@@ -18,8 +16,6 @@ import FinalRestarauntProject from "../../../images/portfolio/graphicdesign/Fina
 export default function RestarauntProjectView() {
 
     return (
-        <section>
-            <Header />
             <Container>
             <HR height="300px" />
             <Holder
@@ -56,7 +52,5 @@ export default function RestarauntProjectView() {
                 </Holder>
                 <HR height="300px" />
             </Container>
-            <Footer />
-        </section>
     )
 }

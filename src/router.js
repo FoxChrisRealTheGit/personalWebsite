@@ -1,5 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
+
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 
 import Home from './components/home/Home';
 import About from './components/about/About';
@@ -30,14 +33,16 @@ import AloneNovelView from "./components/Publications/Novels/Alone";
 import IWantedToDieView from "./components/Publications/non-fiction/IWantedToDie";
 import cryptocurrencyhistoryview from "./components/Publications/non-fiction/cryptocurrencyaHistory";
 import DadAndOtherDad from "./components/Publications/Misc Scripts/DadAndOtherDad";
-
-export default (
-    <Switch>
+export default function Router() {
+  return (
+    <div>
+      <Header />
+      <Switch>
         <Route exact path="/" component={Home}></Route>
 
         <Route exact path="/about" component={About}></Route>
         <Route path='/about/fullstory' component={FullStory}></Route>
-        
+
         <Route exact path="/portfolio" component={Portfolio}></Route>
 
         <Route exact path="/portfolio/webdevelopment" component={WebDevelopment}></Route>
@@ -64,6 +69,9 @@ export default (
         <Route path="/publications/iWantedtodie" component={IWantedToDieView}></Route>
         <Route path="/publications/cryptocurrencyhistory" component={cryptocurrencyhistoryview}></Route>
         <Route path="/publications/dadandotherdad" component={DadAndOtherDad}></Route>
-    </Switch>
+      </Switch>
+      <Footer />
+    </div>
+  );
+}
 
-)

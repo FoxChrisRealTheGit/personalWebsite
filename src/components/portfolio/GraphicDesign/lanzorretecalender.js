@@ -1,6 +1,4 @@
 import React from "react"
-import Header from "../../header/Header";
-import Footer from "../../footer/Footer";
 import {Link }from "react-router-dom";
 
 import {
@@ -20,8 +18,6 @@ import Lanzarote from "../../../images/portfolio/graphicdesign/LanzaroteCalender
 export default function LanzoretteCalenderView() {
 
     return (
-        <section>
-            <Header />
             <Container>
             <HR height="300px" />
             <Holder
@@ -58,7 +54,5 @@ export default function LanzoretteCalenderView() {
                 </Holder>
                 <HR height="300px" />
             </Container>
-            <Footer />
-        </section>
     )
 }

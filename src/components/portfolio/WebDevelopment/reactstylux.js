@@ -1,6 +1,4 @@
 import React from "react"
-import Header from "../../header/Header";
-import Footer from "../../footer/Footer";
 import {Link }from "react-router-dom";
 
 import {
@@ -20,8 +18,6 @@ import reactstyluximg from "../../../images/portfolio/webdevelopment/reactStylux
 export default function reactstyluxView() {
 
     return (
-        <section>
-            <Header />
             <Container>
             <HR height="300px" />
             <Holder
@@ -62,7 +58,5 @@ export default function reactstyluxView() {
                 </Holder>
                 <HR height="300px" />
             </Container>
-            <Footer />
-        </section>
     )
 }

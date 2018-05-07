@@ -1,6 +1,4 @@
 import React from "react"
-import Header from "../../header/Header";
-import Footer from "../../footer/Footer";
 import {Link }from "react-router-dom";
 
 import {
@@ -20,8 +18,6 @@ import peaxgamesimg from "../../../images/portfolio/webdevelopment/PeaxLogin_LG.
 export default function PeaxGamesView() {
 
     return (
-        <section>
-            <Header />
             <Container>
             <HR height="300px" />
             <Holder
@@ -62,7 +58,5 @@ export default function PeaxGamesView() {
                 </Holder>
                 <HR height="300px" />
             </Container>
-            <Footer />
-        </section>
     )
 }

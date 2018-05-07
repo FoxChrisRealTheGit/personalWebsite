@@ -1,6 +1,4 @@
 import React from "react"
-import Header from "../../header/Header";
-import Footer from "../../footer/Footer";
 import { Link } from "react-router-dom";
 
 import {
@@ -20,8 +18,6 @@ import {
 export default function FoxxyHatsView() {
 
     return (
-        <section>
-            <Header />
             <Container>
                 <HR height="300px" />
                 <Holder
@@ -56,7 +52,5 @@ export default function FoxxyHatsView() {
                 </Holder>
                 <HR height="300px" />
             </Container>
-            <Footer />
-        </section>
     )
 }

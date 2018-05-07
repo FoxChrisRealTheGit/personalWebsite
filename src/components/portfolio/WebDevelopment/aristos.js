@@ -1,6 +1,4 @@
 import React from "react"
-import Header from "../../header/Header";
-import Footer from "../../footer/Footer";
 import { Link } from "react-router-dom";
 
 import {
@@ -20,9 +18,7 @@ import aristosPoster from "../../../images/placeholders/aristosPlaceholder.jpg";
 export default function AristosView() {
 
     return (
-        <section>
-            <Header />
-            <Container>
+        <Container>
                 <HR height="300px" />
                 <Holder
                     direction="column">
@@ -61,7 +57,5 @@ export default function AristosView() {
                 </Holder>
                 <HR height="300px" />
             </Container>
-            <Footer />
-        </section>
     )
 }

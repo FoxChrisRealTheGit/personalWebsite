@@ -1,6 +1,4 @@
 import React from "react"
-import Header from "../../header/Header";
-import Footer from "../../footer/Footer";
 import { Link } from "react-router-dom";
 
 import {
@@ -20,8 +18,6 @@ import magazineCloneCovers from "../../../images/portfolio/graphicdesign/Magazin
 export default function MagazineCloneCoverViews() {
 
     return (
-        <section>
-            <Header />
             <Container>
                 <HR height="300px" />
                 <Holder
@@ -58,7 +54,5 @@ export default function MagazineCloneCoverViews() {
                 </Holder>
                 <HR height="300px" />
             </Container>
-            <Footer />
-        </section>
     )
 }
