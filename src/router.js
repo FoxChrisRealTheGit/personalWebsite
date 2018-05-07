@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import Header from "./components/header/Header";
@@ -33,6 +33,7 @@ import AloneNovelView from "./components/Publications/Novels/Alone";
 import IWantedToDieView from "./components/Publications/non-fiction/IWantedToDie";
 import cryptocurrencyhistoryview from "./components/Publications/non-fiction/cryptocurrencyaHistory";
 import DadAndOtherDad from "./components/Publications/Misc Scripts/DadAndOtherDad";
+
 export default function Router() {
   return (
     <div>
