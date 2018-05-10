@@ -1,18 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {
-    Container,
+    Wrapper,
     Holder,
-    Carousel4,
-    SubNavbar1,
-    H41,
-    H42,
-    P1,
+    Carousel,
+    SubNavbar,
+    H,
+    P,
     Image,
-    BulletList1,
+    List,
     HR,
     A,
-    P4,
+    PLQ,
 } from 'react-stylux';
 
 import psIcon from "../../images/portfolio/icons/SVG/psIcon.svg"
@@ -37,104 +36,105 @@ import MagazineCoverClones from "../../images/portfolio/graphicdesign/MagazineCo
 
 export default function Portfolio() {
     return (
-        <Container>
+        <Wrapper>
             <Holder
                 direction="column">
                 <Holder direction="column">
-                    <P4>I'm believing past impossible</P4>
-                    <P4>No matter how statistically improbable</P4>
-                    <P4>Because</P4>
-                    <P4>When it all works out</P4>
-                    <P4>As long as I believe in myself</P4>
-                    <P4>I'm unstoppable</P4>
+                    <PLQ box="2">I'm believing past impossible
+                    No matter how statistically improbable
+                    Because
+                    When it all works out
+                    As long as I believe in myself
+                    I'm unstoppable
+                    {"Me"}</PLQ>
                 </Holder>
                 <Holder margin="50px 0 50px 0">
-                    <Image type="square">
+                    <Image box="2">
                         {psIcon}
                         {"The logo for adobe photoshop cc"}
                     </Image>
-                    <Image type="square">
+                    <Image box="2">
                         {aiIcon}
                         {"The logo for adobe illustrator cc"}
                     </Image>
-                    <Image type="square">
+                    <Image box="2">
                         {cssIcon}
                         {"The symbol for css"}
                     </Image>
-                    <Image type="square">
+                    <Image box="2">
                         {reactIcon}
                         {"The logo for React.js"}
                     </Image>
-                    <Image type="square">
+                    <Image box="2">
                         {GoIcon}
                         {"The icon for Go lang"}
                     </Image>
-                    <Image type="square">
+                    <Image box="2">
                         {jsIcon}
                         {"The symbol for javascript"}
                     </Image>
-                    <Image type="square">
+                    <Image box="2">
                         {htmlIcon}
                         {"The symbol for html 5"}
                     </Image>
-                    <Image type="square">
+                    <Image box="2">
                         {sqlIcon}
                         {"The symbol for SQL"}
                     </Image>
                 </Holder>
-                <SubNavbar1
+                <SubNavbar
                     align='center'>
                     <a href="/portfolio#webdevelopment">Web Development/Design</a>
                     <a href="/portfolio#graphicdesign">Graphic Design</a>
-                </SubNavbar1>
-                <Carousel4>
+                </SubNavbar>
+                <Carousel box="4">
                     <Image
-                        type="square"
+                    box="2"
                         size="md">
                         {ataraxyclothingimg}
                     </Image>
                     <Image
-                        type="square"
+                    box="2"
                         size="md">
                         {nightmaresposter}
                     </Image>
                     <Image
-                        type="square"
+                    box="2"
                         size="md">
                         {finalRestarauntProject}
                     </Image>
                     <Image
-                        type="square"
+                    box="2"
                         size="md">
                         {MagazineCoverClones}
                     </Image>
 
                     <Image
-                        type="square"
+                    box="2"
                         size="md">
                         {reactstyluximg}
                     </Image>
                     <Image
-                        type="square"
+                    box="2"
                         size="md">
                         {peaxgamesimg}
                     </Image>
                     <Image
-                        type="square"
+                    box="2"
                         size="md">
                         {aristosPoster}
                     </Image>
                     <Image
-                        type="square"
+                    box="2"
                         size="md">
                         {LanzaroteCalenderDesign}
                     </Image>
-                </Carousel4>
+                </Carousel>
                 <Link to="/portfolio/webdevelopment">
-                    <H41 id="webdevelopment"
+                    <H id="webdevelopment"
                         margin="100px 0 20px 0">
                         Web Development/Design
-                        </H41>
+                        </H>
                 </Link>
                 <Holder
                     direction="column">
@@ -143,7 +143,7 @@ export default function Portfolio() {
                         alignBlock1="flex-start">
                         <A width="85%" to="/portfolio/webdevelopment/aristos">
                             <Image
-                                type="square"
+                            box="2"
                                 size='lg'>
                                 {aristosPoster}
                                 {"The first draft logo for the Aristos Prject"}
@@ -151,16 +151,16 @@ export default function Portfolio() {
                         </A>
                         <Holder
                             direction="column">
-                            <H42 margin="0 0 50px 0">
+                            <H margin="0 0 50px 0">
                                 Aristos Project | Golang | AWS
-                                    </H42>
-                            <BulletList1>
+                                    </H>
+                            <List>
                                 {"In initial development stages"}
                                 {"CMS and Website builder built in Golang"}
                                 {"All pages set up with HTTPS through Let's Encrypt"}
                                 {"Multiple encoders and decoders built for many file types"}
                                 {"Working on full AWS integration"}
-                            </BulletList1>
+                            </List>
                         </Holder>
                     </Holder>
 
@@ -173,7 +173,7 @@ export default function Portfolio() {
                         alignBlock1="flex-start">
                         <A width="85%" to="/portfolio/webdevelopment/reactstylux">
                             <Image
-                                type="square"
+                            box="2"
                                 size='lg'>
                                 {reactstyluximg}
                                 {"The Table of Contents on Github for react-stylux"}
@@ -181,17 +181,17 @@ export default function Portfolio() {
                         </A>
                         <Holder
                             direction="column">
-                            <H42 margin="0 0 50px 0">
+                            <H margin="0 0 50px 0">
                                 react-stylux | React | Babel | NPM
-                                    </H42>
-                            <BulletList1>
+                                    </H>
+                            <List>
                                 {"Still under development"}
                                 {"Component library with layout mechanic"}
                                 {"Uses style object to style components through props"}
                                 {"This web page was built with react-stylux to test capability"}
                                 <a href="https://github.com/Fox-Design-Agency/react-stylux" rel="noopener noreferrer" target="_blank">react-stylux Github</a>
                                 <a href="https://www.npmjs.com/package/react-stylux" rel="noopener noreferrer" target="_blank">react-stylux NPM</a>
-                            </BulletList1>
+                            </List>
                         </Holder>
                     </Holder>
 
@@ -203,7 +203,7 @@ export default function Portfolio() {
                     <Holder>
                         <A width="85%" to="/portfolio/webdevelopment/peaxgames">
                             <Image
-                                type="square"
+                            box="2"
                                 size='lg'>
                                 {peaxgamesimg}
                                 {"The landing page for peax games"}
@@ -211,17 +211,17 @@ export default function Portfolio() {
                         </A>
                         <Holder
                             direction="column">
-                            <H42 margin="0 0 50px 0">
+                            <H margin="0 0 50px 0">
                                 Peax Games | React | Socket.io | Phaser
-                                    </H42>
-                            <BulletList1>
+                                    </H>
+                            <List>
                                 {"Group project - I was responsible for Game Development"}
                                 {"Html5 Game arcade built with Phaser for React"}
                                 {"Had to create work arounds for Phaser to operate correctly"}
                                 {"Studied OO concepts to build better game code structure"}
                                 <a href="https://github.com/Game-Board-Guys/GameBoard" rel="noopener noreferrer" target="_blank">Peax Games Github</a>
                                 <a href="http://peaxgames.com/" rel="noopener noreferrer" target="_blank">Peax Games Website</a>
-                            </BulletList1>
+                            </List>
                         </Holder>
                     </Holder>
 
@@ -233,7 +233,7 @@ export default function Portfolio() {
                     <Holder>
                         <A width="85%" to="/portfolio/webdevelopment/ataraxyclothing">
                             <Image
-                                type="square"
+                            box="2"
                                 size='lg'>
                                 {ataraxyclothingimg}
                                 {"The homepage for ataraxyClothing"}
@@ -241,31 +241,31 @@ export default function Portfolio() {
                         </A>
                         <Holder
                             direction="column">
-                            <H42 margin="0 0 50px 0">
+                            <H margin="0 0 50px 0">
                                 Ataraxy Clothing | React | react-styux | Stripe
-                                    </H42>
-                            <BulletList1>
+                                    </H>
+                            <List>
                                 {"Won most technical award during personal project presentations"}
                                 {"Designed a component library (react-stylux) to build this project"}
                                 {"This is a full-stack application with complete stripe integration"}
                                 <a href="https://github.com/FoxChrisRealTheGit/AtaraxyClothing" rel="noopener noreferrer" target="_blank">Ataraxy Clothing Github</a>
                                 <a href="https://ataraxyclothing.com/" rel="noopener noreferrer" target="_blank">Ataraxy Clothing website</a>
-                            </BulletList1>
+                            </List>
                         </Holder>
                     </Holder>
 
 
                 </Holder>
-                <Link to="/portfolio/webdevelopment"><P1>See More Web Development...</P1></Link>
+                <Link to="/portfolio/webdevelopment"><P>See More Web Development...</P></Link>
                 <HR height="300px" />
                 <Holder
                     direction='column'>
                     <Link to="/portfolio/graphicdesign">
-                        <H41
+                        <H
                             id="graphicdesign"
                             margin="100px 0 20px 0">
                             Graphic Design
-                            </H41>
+                            </H>
                     </Link>
                     <Holder
                         direction="column">
@@ -273,7 +273,7 @@ export default function Portfolio() {
                         <Holder>
                             <A width="85%" to="/portfolio/graphicdesign/nightmaresposter">
                                 <Image
-                                    type="square"
+                                box="2"
                                     size='lg'>
                                     {nightmaresposter}
                                     {"Play poster"}
@@ -281,13 +281,13 @@ export default function Portfolio() {
                             </A>
                             <Holder
                                 direction="column">
-                                <H42 margin="0 0 50px 0">
+                                <H margin="0 0 50px 0">
                                     Play poster | Illustrator CC | Photoshop CC
-                                        </H42>
-                                <BulletList1>
+                                        </H>
+                                <List>
                                     {"Project for a friend's play"}
                                     {"Play was housed April 14th 2018"}
-                                </BulletList1>
+                                </List>
                             </Holder>
                         </Holder>
 
@@ -299,20 +299,20 @@ export default function Portfolio() {
                         <A width="85%" to="/portfolio/graphicdesign/restarauntproject">
                             <Holder>
                                 <Image
-                                    type="square"
+                                box="2"
                                     size='lg'>
                                     {finalRestarauntProject}
                                 </Image>
                                 <Holder
                                     direction="column">
-                                    <H42 margin="0 0 50px 0">
+                                    <H margin="0 0 50px 0">
                                         Final Restaraunt project | InDesign CC | Illustrator CC
-                                            </H42>
-                                    <BulletList1>
+                                            </H>
+                                    <List>
                                         {'Menu'}
                                         {'Brochure'}
                                         {'Table Tent'}
-                                    </BulletList1>
+                                    </List>
                                 </Holder>
                             </Holder>
                         </A>
@@ -325,18 +325,18 @@ export default function Portfolio() {
                         <A width="85%" to="/portfolio/graphicdesign/magazineclonecovers">
                             <Holder>
                                 <Image
-                                    type="square"
+                                box="2"
                                     size='lg'>
                                     {MagazineCoverClones}
                                 </Image>
                                 <Holder
                                     direction="column">
-                                    <H42 margin="0 0 50px 0">
+                                    <H margin="0 0 50px 0">
                                         Magazine Cover Clones | Indesign CC | Illustrator CC
-                                            </H42>
-                                    <BulletList1>
+                                            </H>
+                                    <List>
                                         {'List'}
-                                    </BulletList1>
+                                    </List>
                                 </Holder>
                             </Holder>
                         </A>
@@ -348,28 +348,28 @@ export default function Portfolio() {
                         <A width="85%" to="/portfolio/graphicdesign/lanzorettecalender">
                             <Holder>
                                 <Image
-                                    type="square"
+                                box="2"
                                     size='lg'>
                                     {LanzaroteCalenderDesign}
                                 </Image>
                                 <Holder
                                     direction="column">
-                                    <H42 margin="0 0 50px 0">
+                                    <H margin="0 0 50px 0">
                                         Lanzorette Calender Design | Illustrator CC
-                                            </H42>
-                                    <BulletList1>
+                                            </H>
+                                    <List>
                                         {"Calender Challenge design from John McWade"}
                                         {"Sketched to finished project in around 30min"}
-                                    </BulletList1>
+                                    </List>
                                 </Holder>
                             </Holder>
                         </A>
 
                     </Holder>
-                    <Link to="/portfolio/graphicdesign"><P1>See More Graphic Design...</P1></Link>
+                    <Link to="/portfolio/graphicdesign"><P>See More Graphic Design...</P></Link>
                 </Holder>
             </Holder>
             <HR height="300px" />
-        </Container>
+        </Wrapper>
     )
 }

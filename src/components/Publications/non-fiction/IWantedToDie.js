@@ -2,28 +2,28 @@ import React from "react"
 import { Link } from "react-router-dom";
 
 import {
-    Container,
+    Wrapper,
     Holder,
     HR,
-    H31,
-    P1,
+    H,
+    P,
 } from "react-stylux"
 
 export default function IWantedToDieNovelView() {
 
     return (
-        <Container>
+        <Wrapper>
             <HR height="300px" />
             <Holder
                 direction="column">
-                <H31>
+                <H>
                     I Wanted to Die
-                </H31>
+                </H>
 
 
-                <Link to="/publications"><P1>Back to Publications...</P1></Link>
+                <Link to="/publications"><P>Back to Publications...</P></Link>
             </Holder>
             <HR height="300px" />
-        </Container>
+        </Wrapper>
     )
 }

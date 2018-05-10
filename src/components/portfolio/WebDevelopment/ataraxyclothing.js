@@ -2,14 +2,13 @@ import React from "react"
 import {Link }from "react-router-dom";
 
 import {
-    Container,
+    Wrapper,
     Holder,
     HR,
-    H31,
-    P1,
+    H,
+    P,
     A,
-    BulletList1,
-    H42,
+    List,
     Image,
 } from "react-stylux"
 
@@ -18,43 +17,43 @@ import ataraxyclothingimg from "../../../images/portfolio/webdevelopment/Ataraxy
 export default function AtaraxyClothingView() {
 
     return (
-            <Container>
+            <Wrapper>
             <HR height="300px" />
             <Holder
                     direction="column">
-                <H31>
+                <H>
                    Ataraxy Clothing
-                </H31>
+                </H>
                 <Holder
                         direction="column">
                         <A width="85%" to="/portfolio/webdevelopment/ataraxyclothing">
                             <Holder>
                                 <Image
-                                    type="square"
+                                box="2"
                                     size='lg'>
                                     {ataraxyclothingimg}
                                     {"The homepage for ataraxyClothing"}
                                 </Image>
                                 <Holder
                                     direction="column">
-                                    <H42 margin="0 0 50px 0">
+                                    <H margin="0 0 50px 0">
                                         Ataraxy Clothing | React | react-styux | Stripe
-                                    </H42>
-                                    <BulletList1>
+                                    </H>
+                                    <List>
                                         {"Won most technical award during personal project presentations"}
                                         {"Designed a component library (react-stylux) to build this project"}
                                         {"This is a full-stack application with complete stripe integration"}
                                         <a href="https://github.com/FoxChrisRealTheGit/AtaraxyClothing" rel="noopener noreferrer" target="_blank">Ataraxy Clothing Github</a>
                                         <a href="https://ataraxyclothing.com/" rel="noopener noreferrer" target="_blank">Ataraxy Clothing website</a>
-                                    </BulletList1>
+                                    </List>
                                 </Holder>
                             </Holder>
                         </A>
                         <HR />
                     </Holder>
-                <Link to="/portfolio/webdevelopment"><P1>Back to Web Development...</P1></Link>
+                <Link to="/portfolio/webdevelopment"><P>Back to Web Development...</P></Link>
                 </Holder>
                 <HR height="300px" />
-            </Container>
+            </Wrapper>
     )
 }

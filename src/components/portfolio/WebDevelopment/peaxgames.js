@@ -2,15 +2,14 @@ import React from "react"
 import {Link }from "react-router-dom";
 
 import {
-    Container,
+    Wrapper,
     Holder,
     HR,
-    H31,
-    P1,
+    H,
+    P,
     A,
     Image,
-    H42,
-    BulletList1,
+    List,
 } from "react-stylux"
 
 import peaxgamesimg from "../../../images/portfolio/webdevelopment/PeaxLogin_LG.jpg";
@@ -18,29 +17,29 @@ import peaxgamesimg from "../../../images/portfolio/webdevelopment/PeaxLogin_LG.
 export default function PeaxGamesView() {
 
     return (
-            <Container>
+            <Wrapper>
             <HR height="300px" />
             <Holder
                     direction="column">
-                <H31>
+                <H>
                     Peax Games
-                </H31>
+                </H>
                 <Holder
                         direction="column">
                         <A width="85%" to="/portfolio/webdevelopment/peaxgames">
                             <Holder>
                                 <Image
-                                    type="square"
+                                box="2"
                                     size='lg'>
                                     {peaxgamesimg}
                                     {"The landing page for peax games"}
                                 </Image>
                                 <Holder
                                     direction="column">
-                                    <H42 margin="0 0 50px 0">
+                                    <H margin="0 0 50px 0">
                                         Peax Games | React | Socket.io | Phaser
-                                    </H42>
-                                    <BulletList1>
+                                    </H>
+                                    <List>
                                     {"semi-active"}
                                         {"Group project - I was responsible for Game Development"}
                                         {"Html5 Game arcade built with Phaser for React"}
@@ -48,15 +47,15 @@ export default function PeaxGamesView() {
                                         {"Studied OO concepts to build better game code structure"}
                                         <a href="https://github.com/Game-Board-Guys/GameBoard" rel="noopener noreferrer" target="_blank">Peax Games Github</a>
                                         <a href="http://peaxgames.com/" rel="noopener noreferrer" target="_blank">Peax Games Website</a>
-                                    </BulletList1>
+                                    </List>
                                 </Holder>
                             </Holder>
                         </A>
                         <HR />
                     </Holder>
-                <Link to="/portfolio/webdevelopment"><P1>Back to Web Development...</P1></Link>
+                <Link to="/portfolio/webdevelopment"><P>Back to Web Development...</P></Link>
                 </Holder>
                 <HR height="300px" />
-            </Container>
+            </Wrapper>
     )
 }

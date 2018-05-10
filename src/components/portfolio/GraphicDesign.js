@@ -1,14 +1,13 @@
 import React from 'react'
 
 import {
-    Container,
+    Wrapper,
     Holder,
-    H31,
+    H,
     HR,
     A,
     Image,
-    BulletList1,
-    H42,
+    List,
 } from 'react-stylux'
 
 import nightmaresposter from "../../images/portfolio/graphicdesign/nightmaresPoster.jpg"
@@ -19,11 +18,11 @@ import MagazineCoverClones from "../../images/portfolio/graphicdesign/MagazineCo
 
 export default function GraphicDesign() {
     return (
-        <Container>
+        <Wrapper>
             <HR height="300px" />
-            <H31>
+            <H>
                 Graphic Design
-                    </H31>
+                    </H>
             <Holder
                 direction="column">
                 <Holder
@@ -32,7 +31,7 @@ export default function GraphicDesign() {
                     <Holder>
                         <A width="85%" to="/portfolio/graphicdesign/nightmaresposter">
                             <Image
-                                type="square"
+                            box="2"
                                 size='lg'>
                                 {nightmaresposter}
                                 {"Play poster"}
@@ -40,13 +39,13 @@ export default function GraphicDesign() {
                         </A>
                         <Holder
                             direction="column">
-                            <H42 margin="0 0 50px 0">
+                            <H margin="0 0 50px 0">
                                 Play poster | Illustrator CC | Photoshop CC
-                                </H42>
-                            <BulletList1>
+                                </H>
+                            <List>
                                 {"Project for a friend's play"}
                                 {"Play was housed April 14th 2018"}
-                            </BulletList1>
+                            </List>
                         </Holder>
                     </Holder>
 
@@ -58,20 +57,20 @@ export default function GraphicDesign() {
                     <A width="85%" to="/portfolio/graphicdesign/restarauntproject">
                         <Holder>
                             <Image
-                                type="square"
+                            box="2"
                                 size='lg'>
                                 {finalRestarauntProject}
                             </Image>
                             <Holder
                                 direction="column">
-                                <H42 margin="0 0 50px 0">
+                                <H margin="0 0 50px 0">
                                     Final Restaraunt project | InDesign CC | Illustrator CC
-                                </H42>
-                                <BulletList1>
+                                </H>
+                                <List>
                                     {'Menu'}
                                     {'Brochure'}
                                     {'Table Tent'}
-                                </BulletList1>
+                                </List>
                             </Holder>
                         </Holder>
                     </A>
@@ -84,18 +83,18 @@ export default function GraphicDesign() {
                     <A width="85%" to="/portfolio/graphicdesign/magazineclonecovers">
                         <Holder>
                             <Image
-                                type="square"
+                            box="2"
                                 size='lg'>
                                 {MagazineCoverClones}
                             </Image>
                             <Holder
                                 direction="column">
-                                <H42 margin="0 0 50px 0">
+                                <H margin="0 0 50px 0">
                                     Magazine Cover Clones | Indesign CC | Illustrator CC
-                                </H42>
-                                <BulletList1>
+                                </H>
+                                <List>
                                     {'List'}
-                                </BulletList1>
+                                </List>
                             </Holder>
                         </Holder>
                     </A>
@@ -107,19 +106,19 @@ export default function GraphicDesign() {
                     <A width="85%" to="/portfolio/graphicdesign/lanzorettecalender">
                         <Holder>
                             <Image
-                                type="square"
+                            box="2"
                                 size='lg'>
                                 {LanzaroteCalenderDesign}
                             </Image>
                             <Holder
                                 direction="column">
-                                <H42 margin="0 0 50px 0">
+                                <H margin="0 0 50px 0">
                                     Lanzorette Calender Design | Illustrator CC
-                                </H42>
-                                <BulletList1>
+                                </H>
+                                <List>
                                     {"Calender Challenge design from John McWade"}
                                     {"Sketched to finished project in around 30min"}
-                                </BulletList1>
+                                </List>
                             </Holder>
                         </Holder>
                     </A>
@@ -128,6 +127,6 @@ export default function GraphicDesign() {
 
             </Holder>
             <HR height="300px" />
-        </Container>
+        </Wrapper>
     )
 }

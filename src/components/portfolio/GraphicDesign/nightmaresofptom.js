@@ -2,15 +2,14 @@ import React from "react"
 import {Link }from "react-router-dom";
 
 import {
-    Container,
+    Wrapper,
     Holder,
     HR,
-    H31,
-    P1,
+    H,
+    P,
     A,
     Image,
-    H42,
-    BulletList1,
+    List,
 } from "react-stylux"
 
 import nightmaresPoster from "../../../images/portfolio/graphicdesign/nightmaresPoster.jpg";
@@ -18,41 +17,41 @@ import nightmaresPoster from "../../../images/portfolio/graphicdesign/nightmares
 export default function NightmaresPosterView() {
 
     return (
-            <Container> 
+            <Wrapper> 
             <HR height="300px" />
             <Holder
                     direction="column">
-                <H31>
+                <H>
                     Nightmares Poster
-                </H31>
+                </H>
                 <Holder
                 direction="column">
                 <A width="85%" to="/portfolio/webdevelopment/twoliesandonetruth">
                     <Holder>
                         <Image
-                            type="square"
+                        box="2"
                             size='lg'>
                             {nightmaresPoster}
                             {"The homepage for 2 lies and 1 truth"}
                         </Image>
                         <Holder
                             direction="column">
-                            <H42 margin="0 0 50px 0">
+                            <H margin="0 0 50px 0">
                             Nightmares Poster | Illustrator CC
-                            </H42>
-                            <BulletList1>
+                            </H>
+                            <List>
                                 {"School Project"}
 
-                            </BulletList1>
+                            </List>
                         </Holder>
                     </Holder>
                 </A>
                 <HR />
             </Holder>
 
-                <Link to="/portfolio/graphicdesign"><P1>Back to Graphic Design...</P1></Link>
+                <Link to="/portfolio/graphicdesign"><P>Back to Graphic Design...</P></Link>
                 </Holder>
                 <HR height="300px" />
-            </Container>
+            </Wrapper>
     )
 }

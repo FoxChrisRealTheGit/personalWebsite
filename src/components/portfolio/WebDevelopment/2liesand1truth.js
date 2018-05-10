@@ -2,15 +2,14 @@ import React from "react"
 import {Link }from "react-router-dom";
 
 import {
-    Container,
+    Wrapper,
     Holder,
     HR,
-    H31,
-    P1,
+    H,
+    P,
     A,
     Image,
-    H42,
-    BulletList1,
+    List,
 } from "react-stylux"
 
 import twoLiesMark1 from "../../../images/portfolio/webdevelopment/twoLiesMarketing.jpg";
@@ -18,36 +17,36 @@ import twoLiesMark1 from "../../../images/portfolio/webdevelopment/twoLiesMarket
 export default function twoliesandonetruthView() {
 
     return (
-            <Container>
+            <Wrapper>
                 <HR height="300px" />
                 <Holder
                     direction="column">
-                    <H31>
+                    <H>
                         2 Lies and 1 Truth Podcast
-                </H31>
+                </H>
                 <Holder
                 direction="column">
                 <A width="85%" to="/portfolio/webdevelopment/twoliesandonetruth">
                     <Holder>
                         <Image
-                            type="square"
+                        box="2"
                             size='lg'>
                             {twoLiesMark1}
                             {"The homepage for 2 lies and 1 truth"}
                         </Image>
                         <Holder
                             direction="column">
-                            <H42 margin="0 0 50px 0">
+                            <H margin="0 0 50px 0">
                                 2 Lies and 1 Truth | Wordpress
-                            </H42>
-                            <BulletList1>
+                            </H>
+                            <List>
                             {"Not active"}
                                 {"Worked on from 2017 - 2017"}
                                 {"Set up a basic Wordpress website to work with RSS feed for podcast"}
                                 {"Would update homepage for new episodes"}
                                 {"Learned alot about marketing and the importance of quality"}
 
-                            </BulletList1>
+                            </List>
                         </Holder>
                     </Holder>
                 </A>
@@ -55,9 +54,9 @@ export default function twoliesandonetruthView() {
             </Holder>
 
 
-                <Link to="/portfolio/webdevelopment"><P1>Back to Web Development...</P1></Link>
+                <Link to="/portfolio/webdevelopment"><P>Back to Web Development...</P></Link>
                 </Holder>
                 <HR height="300px" />
-            </Container>
+            </Wrapper>
     )
 }

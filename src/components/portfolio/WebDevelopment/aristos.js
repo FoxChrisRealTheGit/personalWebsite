@@ -2,15 +2,14 @@ import React from "react"
 import { Link } from "react-router-dom";
 
 import {
-    Container,
+    Wrapper,
     Holder,
     HR,
-    H31,
-    P1,
+    H,
+    P,
     A,
     Image,
-    H42,
-    BulletList1,
+    List,
 } from "react-stylux"
 
 import aristosPoster from "../../../images/placeholders/aristosPlaceholder.jpg";
@@ -18,44 +17,44 @@ import aristosPoster from "../../../images/placeholders/aristosPlaceholder.jpg";
 export default function AristosView() {
 
     return (
-        <Container>
+        <Wrapper>
                 <HR height="300px" />
                 <Holder
                     direction="column">
-                    <H31>
+                    <H>
                         Aristos Project
-                    </H31>
+                    </H>
                     <Holder
                         direction="column">
                         <A width="85%" to="/portfolio/webdevelopment/aristos">
                             <Holder
                                 alignBlock1="flex-start">
                                 <Image
-                                    type="square"
+                                box="2"
                                     size='lg'>
                                     {aristosPoster}
                                     {"The first draft logo for the Aristos Prject"}
                                 </Image>
                                 <Holder
                                     direction="column">
-                                    <H42 margin="0 0 50px 0">
+                                    <H margin="0 0 50px 0">
                                         Aristos Project | Golang | AWS
-                                    </H42>
-                                    <BulletList1>
+                                    </H>
+                                    <List>
                                         {"In initial development stages"}
                                         {"CMS and Website builder built in Golang"}
                                         {"All pages set up with HTTPS through Let's Encrypt"}
                                         {"Multiple encoders and decoders built for many file types"}
                                         {"Working on full AWS integration"}
-                                    </BulletList1>
+                                    </List>
                                 </Holder>
                             </Holder>
                         </A>
                         <HR />
                     </Holder>
-                    <Link to="/portfolio/webdevelopment"><P1>Back to Web Development...</P1></Link>
+                    <Link to="/portfolio/webdevelopment"><P>Back to Web Development...</P></Link>
                 </Holder>
                 <HR height="300px" />
-            </Container>
+            </Wrapper>
     )
 }

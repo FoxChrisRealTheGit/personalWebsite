@@ -2,15 +2,14 @@ import React from "react"
 import { Link } from "react-router-dom";
 
 import {
-    Container,
+    Wrapper,
     Holder,
     HR,
-    H31,
-    P1,
+    H,
+    P,
     A,
     Image,
-    BulletList1,
-    H42,
+    List,
 } from "react-stylux"
 
 import FoxxyHats from "../../../images/portfolio/webdevelopment/FoxxyHats.jpg";
@@ -18,44 +17,44 @@ import FoxxyHats from "../../../images/portfolio/webdevelopment/FoxxyHats.jpg";
 export default function FoxxyHatsView() {
 
     return (
-            <Container>
+            <Wrapper>
                 <HR height="300px" />
                 <Holder
                     direction="column">
-                    <H31>
+                    <H>
                         Foxxy Hats
-                </H31>
+                </H>
                     <Holder
                         direction="column">
                         <A width="85%" to="/portfolio/webdevelopment/foxxyhats">
                             <Holder>
                                 <Image
-                                    type="square"
+                                box="2"
                                     size='lg'>
                                     {FoxxyHats}
                                     {"The homepage for Foxxy Hats"}
                                 </Image>
                                 <Holder
                                     direction="column">
-                                    <H42 margin="0 0 50px 0">
+                                    <H margin="0 0 50px 0">
                                         Foxxy Hats | Wordpress | WooCommerce
-                                    </H42>
-                                    <BulletList1>
+                                    </H>
+                                    <List>
                                         {"Not active"}
                                         {"Worked on seriously from 2015 - 2016"}
                                         {"Initially started in 2014"}
                                         {"Learned a lot about how to run a business"}
                                         {"Leanred even more about Webdesign and Ecommerce"}
 
-                                    </BulletList1>
+                                    </List>
                                 </Holder>
                             </Holder>
                         </A>
                         <HR />
                     </Holder>
-                    <Link to="/portfolio/webdevelopment"><P1>Back to Web Development...</P1></Link>
+                    <Link to="/portfolio/webdevelopment"><P>Back to Web Development...</P></Link>
                 </Holder>
                 <HR height="300px" />
-            </Container>
+            </Wrapper>
     )
 }

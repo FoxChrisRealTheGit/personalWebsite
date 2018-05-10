@@ -1,29 +1,29 @@
 import React from 'react';
 
 import {
-    Container,
+    Wrapper,
     Holder,
-    H32,
-    P1,
+    H,
+    P,
 } from 'react-stylux';
 
 export default function FullStory() {
     return (
-        <Container>
+        <Wrapper>
             <Holder
                 direction='column'>
-                <H32>
+                <H>
                     The Start
-                        </H32>
-                <P1>
+                        </H>
+                <P>
 
-                </P1>
-                <H32>
+                </P>
+                <H>
                     The Start
-                        </H32>
-                <P1>
-                </P1>
+                        </H>
+                <P>
+                </P>
             </Holder>
-        </Container>
+        </Wrapper>
     )
 }

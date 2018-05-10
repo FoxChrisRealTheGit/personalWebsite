@@ -2,14 +2,13 @@ import React from "react"
 import { Link } from "react-router-dom";
 
 import {
-    Container,
+    Wrapper,
     Holder,
     HR,
-    H31,
-    P1,
+    P,
     A,
-    H42,
-    BulletList1,
+    H,
+    List,
     Image,
 } from "react-stylux"
 
@@ -18,41 +17,41 @@ import magazineCloneCovers from "../../../images/portfolio/graphicdesign/Magazin
 export default function MagazineCloneCoverViews() {
 
     return (
-            <Container>
+            <Wrapper>
                 <HR height="300px" />
                 <Holder
                     direction="column">
-                    <H31>
+                    <H>
                         Magazine Cover Clones
-                    </H31>
+                    </H>
 
                     <Holder
                         direction="column">
                         <A width="85%" to="/portfolio/webdevelopment/twoliesandonetruth">
                             <Holder>
                                 <Image
-                                    type="square"
+                                box="2"
                                     size='lg'>
                                     {magazineCloneCovers}
                                     {"The homepage for 2 lies and 1 truth"}
                                 </Image>
                                 <Holder
                                     direction="column">
-                                    <H42 margin="0 0 50px 0">
+                                    <H margin="0 0 50px 0">
                                         Magazine Cover Clones | Indesign CC | Illustrator CC
-                                    </H42>
-                                    <BulletList1>
+                                    </H>
+                                    <List>
                                         {"School Project"}
 
-                                    </BulletList1>
+                                    </List>
                                 </Holder>
                             </Holder>
                         </A>
                         <HR />
                     </Holder>
-                    <Link to="/portfolio/graphicdesign"><P1>Back to Graphic Design...</P1></Link>
+                    <Link to="/portfolio/graphicdesign"><P>Back to Graphic Design...</P></Link>
                 </Holder>
                 <HR height="300px" />
-            </Container>
+            </Wrapper>
     )
 }

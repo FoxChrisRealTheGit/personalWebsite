@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {
-    Container,
+    Wrapper,
     Holder,
-    Hero1,
-    H32,
+    Hero,
+    H,
     Image,
     HR,
     Card,
     A,
-    BulletList1,
+    List,
 } from "react-stylux";
 
 import aspen from '../../images/chrisinaspen.jpg';
@@ -23,15 +23,15 @@ import AtaraxyLife from "../../images/portfolio/webdevelopment/AtaraxyLifeNonPro
 
 export default function Home() {
     return (
-        <Container
+        <Wrapper
             direction="column">
             <Holder
                 direction='column'
                 block1smdis="none">
-                <Hero1
+                <Hero
                     image={`url(${aspen})`}
                     height='375px' >
-                </Hero1>
+                </Hero>
                 <Holder
                     direction='column'>
                     <A width="1200px" to="/about">
@@ -65,14 +65,14 @@ export default function Home() {
                 <Holder
                     direction='column'>
                     <Link to="/portfolio">
-                        <H32>
+                        <H>
                             Most Recent Work
-                                </H32>
+                                </H>
                     </Link>
                     <Holder>
                         <Link to="/portfolio">
                             <Image
-                                type="square"
+                                box="2"
                                 size="lg">
                                 {AtaraxyLife}
                             </Image>
@@ -81,9 +81,9 @@ export default function Home() {
                             direction='column'>
 
                             <Link to="/portfolio/webdevelopment/ataraxylife-nonprofit">
-                                <BulletList1>
+                                <List>
                                     {"Non-Profit for Suicide Prevention and happiness advocation"}
-                                </BulletList1>
+                                </List>
                             </Link>
                         </Holder>
                     </Holder>
@@ -95,7 +95,7 @@ export default function Home() {
                 <Holder
                     direction="column">
                     <Link to="/publications">
-                        <H32>Publications</H32>
+                        <H>Publications</H>
                     </Link>
                     <Holder>
                         <Link to="/publications" className="publicationTag">
@@ -125,6 +125,6 @@ export default function Home() {
 
             </Holder>
             <HR height="300px" />
-        </Container>
+        </Wrapper>
     )
 }

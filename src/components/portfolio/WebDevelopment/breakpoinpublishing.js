@@ -2,15 +2,14 @@ import React from "react"
 import { Link } from "react-router-dom";
 
 import {
-    Container,
+    Wrapper,
     Holder,
     HR,
-    H31,
-    P1,
+    H,
+    P,
     A,
     Image,
-    BulletList1,
-    H42,
+    List,
 } from "react-stylux"
 
 
@@ -18,39 +17,39 @@ import {
 export default function FoxxyHatsView() {
 
     return (
-            <Container>
+            <Wrapper>
                 <HR height="300px" />
                 <Holder
                     direction="column">
-                    <H31>
+                    <H>
                         Breakpoint Publishing
-                    </H31>
+                    </H>
                     <Holder
                         direction="column">
                         <A width="85%" to="/portfolio/webdevelopment/foxxyhats">
                             <Holder>
                                 <Image
-                                    type="square"
+                                box="2"
                                     size='lg'>
                                     {}
                                     {"The homepage for BreakPoint Publishing"}
                                 </Image>
                                 <Holder
                                     direction="column">
-                                    <H42 margin="0 0 50px 0">
+                                    <H margin="0 0 50px 0">
                                         Breakpoint Publishing | React
-                                    </H42>
-                                    <BulletList1>
+                                    </H>
+                                    <List>
                                         {"Just starting"}
-                                    </BulletList1>
+                                    </List>
                                 </Holder>
                             </Holder>
                         </A>
                         <HR />
                     </Holder>
-                    <Link to="/portfolio/webdevelopment"><P1>Back to Web Development...</P1></Link>
+                    <Link to="/portfolio/webdevelopment"><P>Back to Web Development...</P></Link>
                 </Holder>
                 <HR height="300px" />
-            </Container>
+            </Wrapper>
     )
 }
