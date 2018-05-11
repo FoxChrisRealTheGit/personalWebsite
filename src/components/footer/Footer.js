@@ -23,7 +23,7 @@ export default function Footer() {
                     <a href="https://github.com/FoxChrisRealTheGit" target="_blank" rel="noopener noreferrer"></a>
                     <a href="https://linkedin.com/in/foxchrisrealthe" target="_blank" rel="noopener noreferrer"></a>
                 </Navbar>
-                <P>Copyright &copy; 2018 - All Rights Reserved FoxChrisRealThe- Website Design by: <a href="https://FoxDesignAgency.com" target="_blank" rel="noopener noreferrer">Fox Design Agency</a></P>
+                <P box="2">Copyright &copy; 2018 - All Rights Reserved FoxChrisRealThe- Website Design by: <a href="https://FoxDesignAgency.com" target="_blank" rel="noopener noreferrer">Fox Design Agency</a></P>
             </Holder>
         </Wrapper>
     )
