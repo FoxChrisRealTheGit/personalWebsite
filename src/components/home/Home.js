@@ -21,6 +21,7 @@ import Designer from "../../images/placeholders/DesignerImage.jpg";
 import Writer from "../../images/placeholders/WriterImage.jpg";
 import AtaraxyLife from "../../images/portfolio/webdevelopment/AtaraxyLifeNonProfitBeliefs.jpg";
 
+
 export default function Home() {
     return (
         <Wrapper
@@ -34,29 +35,29 @@ export default function Home() {
                 </Hero>
                 <Holder
                     direction='column'>
-                    <A width="1200px" to="/about">
-                        <Holder>
-                            <Card>
-                                {Developer}
-                                {"Placeholder for a developer type image"}
-                                {"Developer"}
-                                {"I am a very self-motivated web developer with knowledge of Golang, ReactJs, Javascript, HTML, CSS, RESTful, Express, and NodeJS. Currently, I am exploring various computer science topics and data structure solutions. Kali Linux also has my interest."}
 
-                            </Card>
-                            <Card>
-                                {Designer}
-                                {"Placeholder for a designer type image"}
-                                {"Designer"}
-                                {"Currently, I am working on my BA in Graphic Design. I have played around with the creation of various print material, but I am very interested in the UX considerations surrounding web design. VR is also extremely fascinating to me at the present moment."}
-                            </Card>
-                            <Card>
-                                {Writer}
-                                {"Placeholder for a writer type image"}
-                                {"Writer"}
-                                {"I regularly perform spoken word poetry and try to tell stories when I can. I enjoy being in front of people and working with crowds. I have well over 200 pages of various scripts, a few plays being worked on, a completed novel, and a collection of short stories near completion."}
-                            </Card>
-                        </Holder>
-                    </A>
+                    <Holder>
+                        <Card>
+                            {Developer}
+                            {"Placeholder for a developer type image"}
+                            {"Developer"}
+                            {"I am a very self-motivated web developer with knowledge of Golang, ReactJs, Javascript, HTML, CSS, RESTful, Express, and NodeJS. Currently, I am exploring various computer science topics and data structure solutions. Kali Linux also has my interest."}
+
+                        </Card>
+                        <Card>
+                            {Designer}
+                            {"Placeholder for a designer type image"}
+                            {"Designer"}
+                            {"Currently, I am working on my BA in Graphic Design. I have played around with the creation of various print material, but I am very interested in the UX considerations surrounding web design. VR is also extremely fascinating to me at the present moment."}
+                        </Card>
+                        <Card>
+                            {Writer}
+                            {"Placeholder for a writer type image"}
+                            {"Writer"}
+                            {"I regularly perform spoken word poetry and try to tell stories when I can. I enjoy being in front of people and working with crowds. I have well over 200 pages of various scripts, a few plays being worked on, a completed novel, and a collection of short stories near completion."}
+                        </Card>
+                    </Holder>
+
                 </Holder>
 
 

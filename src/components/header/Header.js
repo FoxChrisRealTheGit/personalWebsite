@@ -17,14 +17,15 @@ export default function Header() {
                 smflexDir="row">
                 <Link to="/">
                     <Brand
-                        box="2"
-                        size='md'>
+
+                        size='sm'>
                         {tail}
                     </Brand>
                 </Link>
                 <Navbar
-                    navbarWidth='60%'
-                    count="3">
+                    box="2"
+                    totalWidth='60%'
+                    count="3" >
                     <Link to="/">Home</Link>
                     <Link to="/about">About</Link>
                     <Link to="/portfolio">Portfolio</Link>

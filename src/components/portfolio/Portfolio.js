@@ -138,13 +138,12 @@ export default function Portfolio() {
                 </Link>
                 <Holder
                     direction="column">
-
                     <Holder
                         alignBlock1="flex-start">
                         <A width="85%" to="/portfolio/webdevelopment/aristos">
                             <Image
                             box="2"
-                                size='lg'>
+                                size='sm'>
                                 {aristosPoster}
                                 {"The first draft logo for the Aristos Prject"}
                             </Image>

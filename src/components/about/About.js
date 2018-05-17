@@ -6,7 +6,6 @@ import {
     P,
     HR,
 } from 'react-stylux';
-
 export default function About() {
     return (
         <Wrapper>
