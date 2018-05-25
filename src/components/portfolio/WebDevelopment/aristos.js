@@ -12,7 +12,7 @@ import {
     List,
 } from "react-stylux"
 
-import aristosPoster from "../../../images/placeholders/aristosPlaceholder.jpg";
+import aristosPoster from "../../../images/portfolio/webdevelopment/0.0.1-node-version.jpg";
 
 export default function AristosView() {
 
@@ -22,7 +22,7 @@ export default function AristosView() {
                 <Holder
                     direction="column">
                     <H>
-                        Aristos Project
+                        Aristos CMS
                     </H>
                     <Holder
                         direction="column">
@@ -38,14 +38,12 @@ export default function AristosView() {
                                 <Holder
                                     direction="column">
                                     <H margin="0 0 50px 0">
-                                        Aristos Project | Golang | AWS
+                                        Aristos CMS | Nodejs 
                                     </H>
                                     <List>
-                                        {"In initial development stages"}
-                                        {"CMS and Website builder built in Golang"}
-                                        {"All pages set up with HTTPS through Let's Encrypt"}
-                                        {"Multiple encoders and decoders built for many file types"}
-                                        {"Working on full AWS integration"}
+                                        {"In Alpha development stages"}
+                                        {"CMS and Website builder built in Nodejs"}
+                                        {"Working on support for more template types"}
                                     </List>
                                 </Holder>
                             </Holder>

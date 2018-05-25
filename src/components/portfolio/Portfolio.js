@@ -23,7 +23,7 @@ import jsIcon from "../../images/portfolio/icons/SVG/jsIcon.svg"
 import htmlIcon from "../../images/portfolio/icons/SVG/htmlIcon.svg"
 import sqlIcon from "../../images/portfolio/icons/SVG/sqlIcon.svg"
 
-import aristosPoster from "../../images/placeholders/aristosPlaceholder.jpg"
+import aristosPoster from "../../images/portfolio/webdevelopment/0.0.1-node-version.jpg"
 import reactstyluximg from "../../images/portfolio/webdevelopment/reactStyluxTOC_LG.jpg"
 import peaxgamesimg from "../../images/portfolio/webdevelopment/PeaxLogin_LG.jpg"
 import ataraxyclothingimg from "../../images/portfolio/webdevelopment/AtaraxyClothingHomepage_LG.jpg"
@@ -39,15 +39,13 @@ export default function Portfolio() {
         <Wrapper>
             <Holder
                 direction="column">
-                <Holder direction="column">
-                    <PLQ box="2">I'm believing past impossible
-                    No matter how statistically improbable
-                    Because
-                    When it all works out
-                    As long as I believe in myself
-                    I'm unstoppable
+                <PLQ box="2">I'm believing past impossible
+                No matter how statistically improbable
+                Because
+                When it all works out
+                As long as I believe in myself
+                I'm unstoppable
                     {"Me"}</PLQ>
-                </Holder>
                 <Holder margin="50px 0 50px 0">
                     <Image box="2">
                         {psIcon}
@@ -89,43 +87,43 @@ export default function Portfolio() {
                 </SubNavbar>
                 <Carousel box="4">
                     <Image
-                    box="2"
+                        box="2"
                         size="md">
                         {ataraxyclothingimg}
                     </Image>
                     <Image
-                    box="2"
+                        box="2"
                         size="md">
                         {nightmaresposter}
                     </Image>
                     <Image
-                    box="2"
+                        box="2"
                         size="md">
                         {finalRestarauntProject}
                     </Image>
                     <Image
-                    box="2"
+                        box="2"
                         size="md">
                         {MagazineCoverClones}
                     </Image>
 
                     <Image
-                    box="2"
+                        box="2"
                         size="md">
                         {reactstyluximg}
                     </Image>
                     <Image
-                    box="2"
+                        box="2"
                         size="md">
                         {peaxgamesimg}
                     </Image>
                     <Image
-                    box="2"
+                        box="2"
                         size="md">
                         {aristosPoster}
                     </Image>
                     <Image
-                    box="2"
+                        box="2"
                         size="md">
                         {LanzaroteCalenderDesign}
                     </Image>
@@ -142,7 +140,7 @@ export default function Portfolio() {
                         alignBlock1="flex-start">
                         <A width="85%" to="/portfolio/webdevelopment/aristos">
                             <Image
-                            box="2"
+                                box="2"
                                 size='sm'>
                                 {aristosPoster}
                                 {"The first draft logo for the Aristos Prject"}
@@ -151,14 +149,12 @@ export default function Portfolio() {
                         <Holder
                             direction="column">
                             <H margin="0 0 50px 0">
-                                Aristos Project | Golang | AWS
+                                Aristos Project | Nodejs
                                     </H>
                             <List>
-                                {"In initial development stages"}
-                                {"CMS and Website builder built in Golang"}
-                                {"All pages set up with HTTPS through Let's Encrypt"}
-                                {"Multiple encoders and decoders built for many file types"}
-                                {"Working on full AWS integration"}
+                            {"In Alpha development stages"}
+                            {"CMS and Website builder built in Nodejs"}
+                            {"Working on support for more template types"}
                             </List>
                         </Holder>
                     </Holder>
@@ -172,7 +168,7 @@ export default function Portfolio() {
                         alignBlock1="flex-start">
                         <A width="85%" to="/portfolio/webdevelopment/reactstylux">
                             <Image
-                            box="2"
+                                box="2"
                                 size='lg'>
                                 {reactstyluximg}
                                 {"The Table of Contents on Github for react-stylux"}
@@ -202,7 +198,7 @@ export default function Portfolio() {
                     <Holder>
                         <A width="85%" to="/portfolio/webdevelopment/peaxgames">
                             <Image
-                            box="2"
+                                box="2"
                                 size='lg'>
                                 {peaxgamesimg}
                                 {"The landing page for peax games"}
@@ -232,7 +228,7 @@ export default function Portfolio() {
                     <Holder>
                         <A width="85%" to="/portfolio/webdevelopment/ataraxyclothing">
                             <Image
-                            box="2"
+                                box="2"
                                 size='lg'>
                                 {ataraxyclothingimg}
                                 {"The homepage for ataraxyClothing"}
@@ -241,7 +237,7 @@ export default function Portfolio() {
                         <Holder
                             direction="column">
                             <H margin="0 0 50px 0">
-                                Ataraxy Clothing | React | react-styux | Stripe
+                                Ataraxy Clothing | React | react-styux | Stripe | AWS
                                     </H>
                             <List>
                                 {"Won most technical award during personal project presentations"}
@@ -272,7 +268,7 @@ export default function Portfolio() {
                         <Holder>
                             <A width="85%" to="/portfolio/graphicdesign/nightmaresposter">
                                 <Image
-                                box="2"
+                                    box="2"
                                     size='lg'>
                                     {nightmaresposter}
                                     {"Play poster"}
@@ -298,7 +294,7 @@ export default function Portfolio() {
                         <A width="85%" to="/portfolio/graphicdesign/restarauntproject">
                             <Holder>
                                 <Image
-                                box="2"
+                                    box="2"
                                     size='lg'>
                                     {finalRestarauntProject}
                                 </Image>
@@ -324,7 +320,7 @@ export default function Portfolio() {
                         <A width="85%" to="/portfolio/graphicdesign/magazineclonecovers">
                             <Holder>
                                 <Image
-                                box="2"
+                                    box="2"
                                     size='lg'>
                                     {MagazineCoverClones}
                                 </Image>
@@ -347,7 +343,7 @@ export default function Portfolio() {
                         <A width="85%" to="/portfolio/graphicdesign/lanzorettecalender">
                             <Holder>
                                 <Image
-                                box="2"
+                                    box="2"
                                     size='lg'>
                                     {LanzaroteCalenderDesign}
                                 </Image>

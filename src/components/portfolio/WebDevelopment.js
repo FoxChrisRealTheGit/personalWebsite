@@ -15,7 +15,7 @@ import {
 
 
 import AtaraxyLifeNonprofit from "../../images/portfolio/webdevelopment/AtaraxyLifeNonProfitBeliefs.jpg";
-import aristosPoster from "../../images/placeholders/aristosPlaceholder.jpg"
+import aristosPoster from "../../images/portfolio/webdevelopment/0.0.1-node-version.jpg"
 import reactstyluximg from "../../images/portfolio/webdevelopment/reactStyluxTOC_LG.jpg"
 import peaxgamesimg from "../../images/portfolio/webdevelopment/PeaxLogin_LG.jpg"
 import ataraxyclothingimg from "../../images/portfolio/webdevelopment/AtaraxyClothingHomepage_LG.jpg"
@@ -53,7 +53,7 @@ export default function WebDevelopment() {
                             <Holder
                                 direction="column">
                                 <H margin="0 0 50px 0">
-                                    Breakpoint Publishing | React
+                                    Breakpoint Publishing | React | AWS
                                     </H>
                                 <List>
                                     {"Just starting"}
@@ -77,7 +77,7 @@ export default function WebDevelopment() {
                             <Holder
                                 direction="column">
                                 <H margin="0 0 50px 0">
-                                    Ataraxy Life | React
+                                    Ataraxy Life | React | AWS
                                     </H>
                                 <List>
                                     {"Non-Profit for Suicide prevention and happiness advocation"}
@@ -99,14 +99,12 @@ export default function WebDevelopment() {
                         <Holder
                             direction="column">
                             <H margin="0 0 50px 0">
-                                Aristos Project | Golang | AWS
+                                Aristos CMS | Nodejs 
                                     </H>
                             <List>
-                                {"In initial development stages"}
-                                {"CMS and Website builder built in Golang"}
-                                {"All pages set up with HTTPS through Let's Encrypt"}
-                                {"Multiple encoders and decoders built for many file types"}
-                                {"Working on full AWS integration"}
+                            {"In Alpha development stages"}
+                            {"CMS and Website builder built in Nodejs"}
+                            {"Working on support for more template types"}
                             </List>
                         </Holder>
                     </Holder>
@@ -155,7 +153,7 @@ export default function WebDevelopment() {
                         <Holder
                             direction="column">
                             <H margin="0 0 50px 0">
-                                Peax Games | React | Socket.io | Phaser
+                                Peax Games | React | Socket.io | Phaser 
                                     </H>
                             <List>
                                 {"semi-active"}
@@ -184,7 +182,7 @@ export default function WebDevelopment() {
                         <Holder
                             direction="column">
                             <H margin="0 0 50px 0">
-                                Ataraxy Clothing | React | react-styux | Stripe
+                                Ataraxy Clothing | React | react-styux | Stripe | AWS
                                     </H>
                             <List>
                                 {"Won most technical award during personal project presentations"}

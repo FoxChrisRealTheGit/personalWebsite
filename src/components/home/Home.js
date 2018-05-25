@@ -19,7 +19,7 @@ import card1ComingSoon from "../../images/placeholders/card1ComingSoon.jpg";
 import Developer from "../../images/placeholders/DeveloperCodeImage.jpg";
 import Designer from "../../images/placeholders/DesignerImage.jpg";
 import Writer from "../../images/placeholders/WriterImage.jpg";
-import AtaraxyLife from "../../images/portfolio/webdevelopment/AtaraxyLifeNonProfitBeliefs.jpg";
+import AristosCMS from "../../images/portfolio/webdevelopment/0.0.1-node-version.jpg";
 
 
 export default function Home() {
@@ -68,22 +68,25 @@ export default function Home() {
                     <Link to="/portfolio">
                         <H>
                             Most Recent Work
-                                </H>
+                        </H>
                     </Link>
                     <Holder>
-                        <Link to="/portfolio">
+                        <Link to="/portfolio/webdevelopment/aristos">
                             <Image
                                 box="2"
                                 size="lg">
-                                {AtaraxyLife}
+                                {AristosCMS}
                             </Image>
                         </Link>
                         <Holder
                             direction='column'>
-
-                            <Link to="/portfolio/webdevelopment/ataraxylife-nonprofit">
+                            <Link to="/portfolio/webdevelopment/aristos">
+                            <H>
+                               Aristos CMS - Node
+                            </H>
+                            
                                 <List>
-                                    {"Non-Profit for Suicide Prevention and happiness advocation"}
+                                    {"CMS built in Nodejs"}
                                 </List>
                             </Link>
                         </Holder>
